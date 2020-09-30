@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataDiversXML>
+
+<Authentication>
+        <Username></Username>
+        <Password></Password>
+</Authentication>
+<SubjectDetail>
+        <FirstName>Alfredo</FirstName>
+        <MiddleName/>
+        <LastName>Concepcion</LastName>
+        <DOBMonth>05</DOBMonth>
+        <DOBDay>13</DOBDay>
+        <DOBYear>1976</DOBYear>
+
+        <Age/>
+        <FileID/>
+
+        <SSN>***-**-7586</SSN>
+        <NickNames/>
+        <Aliases>
+
+                <Alias>
+                        <FirstName>ALFREDO</FirstName>
+                        <MiddleName>C</MiddleName>
+                        <LastName>CONCEPCION</LastName>
+                </Alias>
+
+                <Alias>
+                        <FirstName>ALFREDO</FirstName>
+                        <MiddleName>A</MiddleName>
+                        <LastName>CONCEPCION</LastName>
+                </Alias>
+
+        </Aliases>
+        <ZipCodes>23704,23705,23703,10033,31008,31093,31028,31063,30260,37042</ZipCodes>
+
+</SubjectDetail>
+<ProcessingRules>
+
+    <InstantCriminalRules>
+        <FirstName>
+            <ExactMatchOnly>Yes</ExactMatchOnly>
+            <TruncationLevel>0</TruncationLevel>
+
+                <NickNameSearch proximity="1">Yes</NickNameSearch>
+
+        </FirstName>
+        <MiddleName>
+            <MatchOnInitial>Yes</MatchOnInitial>
+        </MiddleName>
+        <LastName>
+            <ExactMatchOnly>Yes</ExactMatchOnly>
+            <ParsePunctuation>Yes</ParsePunctuation>
+            <TruncationLevel>0</TruncationLevel>
+        </LastName>
+                <AliasName>
+                        <AliasExactNameMatch>Off</AliasExactNameMatch>
+                </AliasName>
+        <Age>
+            <YearRange>0</YearRange>
+        </Age>
+        <DOB>
+            <YearRange>0</YearRange>
+            <IncludeIncompleteDOBMatch>No</IncludeIncompleteDOBMatch>
+            <IncludePartialDOBMatch>No</IncludePartialDOBMatch>
+            <IncludeNullDOBMatch>No</IncludeNullDOBMatch>
+            <ExcludeNullDOBStates/>
+        </DOB>
+        <ExcludeArrestData>No</ExcludeArrestData>
+        <ExcludeWarrantData>No</ExcludeWarrantData>
+        <ExcludeFugitiveData>No</ExcludeFugitiveData>
+        <SubCriteria>
+            <ZipcodeMatch Radius="0">No</ZipcodeMatch>
+        </SubCriteria>
+        <SexOffender>
+            <DOB>
+                <YearRange>0</YearRange>
+                <IncludeIncompleteDOBMatch>No</IncludeIncompleteDOBMatch>
+                <IncludePartialDOBMatch>No</IncludePartialDOBMatch>
+                <IncludeNullDOBMatch>No</IncludeNullDOBMatch>
+            </DOB>
+        </SexOffender>
+
+    </InstantCriminalRules>
+
+        <AddressHistoryRules>
+                <IncludePartialNameMatch>Yes</IncludePartialNameMatch>
+                <IncludeNonNameMatch>No</IncludeNonNameMatch>
+        </AddressHistoryRules>
+
+
+</ProcessingRules>
+<ServiceRequest>
+        <ServiceCode>MultistateFull</ServiceCode>
+
+        <SmartSearch>Yes</SmartSearch>
+
+        <States/>
+
+</ServiceRequest>
+
+<Response>
+    <AddressHistoryResponse>
+<Summary>
+        <Status>Record</Status>
+        <StateIssued>New York</StateIssued>
+        <YearIssued>1976-1978</YearIssued>
+        <DeathIndex>No</DeathIndex>
+
+</Summary>
+
+<Individual>
+        <FirstName>ALFREDO</FirstName> <MiddleName/> <LastName>CONCEPCION</LastName>
+        <DateOfBirth>
+                <BirthMonth>05</BirthMonth> <BirthDay>13</BirthDay> <BirthYear>1976</BirthYear>
+        </DateOfBirth>
+
+        <AddressHistory>
+
+                <Address>
+                        <StreetAddress>977 GREEN ST</StreetAddress>
+                        <City>PORTSMOUTH</City> <State>VA</State> <Zipcode>23704</Zipcode> <County>PORTSMOUTH CITY</County>
+                        <StartDate>
+                                <Month>12</Month> <Year>2014</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>04</Month> <Year>2018</Year>
+                        </EndDate>
+
+                </Address>
+
+                <Address>
+                        <StreetAddress>PO BOX 745</StreetAddress>
+                        <City>PORTSMOUTH</City> <State>VA</State> <Zipcode>23705</Zipcode> <County>PORTSMOUTH CITY</County>
+                        <StartDate>
+                                <Month>09</Month> <Year>2014</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>09</Month> <Year>2015</Year>
+                        </EndDate>
+
+                </Address>
+
+                <Address>
+                        <StreetAddress>5631 DANVERS RD</StreetAddress>
+                        <City>PORTSMOUTH</City> <State>VA</State> <Zipcode>23703</Zipcode> <County>PORTSMOUTH CITY</County>
+                        <StartDate>
+                                <Month>06</Month> <Year>2013</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>01</Month> <Year>2014</Year>
+                        </EndDate>
+
+                </Address>
+
+                <Address>
+                        <StreetAddress>4300 BROADWAY APT 6J</StreetAddress>
+                        <City>NEW YORK</City> <State>NY</State> <Zipcode>10033</Zipcode> <County>NEW YORK</County>
+                        <StartDate>
+                                <Month>07</Month> <Year>2014</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>07</Month> <Year>2014</Year>
+                        </EndDate>
+
+                </Address>
+
+                <Address>
+                        <StreetAddress>425 SOUTHLAND TRL</StreetAddress>
+                        <City>BYRON</City> <State>GA</State> <Zipcode>31008</Zipcode> <County>PEACH</County>
+                        <StartDate>
+                                <Month>01</Month> <Year>2014</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>01</Month> <Year>2014</Year>
+                        </EndDate>
+
+                </Address>
+
+                <Address>
+                        <StreetAddress>1205 GREEN ST STE 4</StreetAddress>
+                        <City>WARNER ROBINS</City> <State>GA</State> <Zipcode>31093</Zipcode> <County>HOUSTON</County>
+                        <StartDate>
+                                <Month>04</Month> <Year>2011</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>04</Month> <Year>2011</Year>
+                        </EndDate>
+
+                </Address>
+
+                <Address>
+                        <StreetAddress>800 GUNN RD # 205231</StreetAddress>
+                        <City>CENTERVILLE</City> <State>GA</State> <Zipcode>31028</Zipcode> <County>HOUSTON</County>
+                        <StartDate>
+                                <Month>05</Month> <Year>2002</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>12</Month> <Year>2010</Year>
+                        </EndDate>
+
+                </Address>
+
+                <Address>
+                        <StreetAddress>109 ARNOLD ST # 3</StreetAddress>
+                        <City>CENTERVILLE</City> <State>GA</State> <Zipcode>31028</Zipcode> <County>HOUSTON</County>
+                        <StartDate>
+                                <Month>12</Month> <Year>2009</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>12</Month> <Year>2009</Year>
+                        </EndDate>
+
+                </Address>
+
+                <Address>
+                        <StreetAddress>858 SPRING ST</StreetAddress>
+                        <City>MONTEZUMA</City> <State>GA</State> <Zipcode>31063</Zipcode> <County>MACON</County>
+                        <StartDate>
+                                <Month>06</Month> <Year>2008</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>06</Month> <Year>2008</Year>
+                        </EndDate>
+
+                </Address>
+
+                <Address>
+                        <StreetAddress>205 HUNTERS CHASE</StreetAddress>
+                        <City>BYRON</City> <State>GA</State> <Zipcode>31008</Zipcode> <County>PEACH</County>
+                        <StartDate>
+                                <Month>06</Month> <Year>2000</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>01</Month> <Year>2003</Year>
+                        </EndDate>
+
+                </Address>
+
+                <Address>
+                        <StreetAddress>6421 PRISCILLA CT</StreetAddress>
+                        <City>MORROW</City> <State>GA</State> <Zipcode>30260</Zipcode> <County>CLAYTON</County>
+                        <StartDate>
+                                <Month>11</Month> <Year>1997</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>01</Month> <Year>2003</Year>
+                        </EndDate>
+
+                </Address>
+
+                <Address>
+                        <StreetAddress>529 CASKEY DR</StreetAddress>
+                        <City>CLARKSVILLE</City> <State>TN</State> <Zipcode>37042</Zipcode> <County>MONTGOMERY</County>
+                        <StartDate>
+                                <Month>08</Month> <Year>1996</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>01</Month> <Year>2003</Year>
+                        </EndDate>
+
+                </Address>
+
+        </AddressHistory>
+</Individual>
+
+<Individual>
+        <FirstName>ALFREDO</FirstName> <MiddleName>C</MiddleName> <LastName>CONCEPCION</LastName>
+        <DateOfBirth>
+                <BirthMonth>05</BirthMonth> <BirthDay>13</BirthDay> <BirthYear>1976</BirthYear>
+        </DateOfBirth>
+
+        <AddressHistory>
+
+                <Address>
+                        <StreetAddress>800 GUNN RD APT 231</StreetAddress>
+                        <City>CENTERVILLE</City> <State>GA</State> <Zipcode>31028</Zipcode> <County>HOUSTON</County>
+                        <StartDate>
+                                <Month>05</Month> <Year>2002</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>01</Month> <Year>2014</Year>
+                        </EndDate>
+
+                </Address>
+
+                <Address>
+                        <StreetAddress>105 ARNOLD ST APT 3</StreetAddress>
+                        <City>CENTERVILLE</City> <State>GA</State> <Zipcode>31028</Zipcode> <County>HOUSTON</County>
+                        <StartDate>
+                                <Month>07</Month> <Year>2003</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>07</Month> <Year>2003</Year>
+                        </EndDate>
+
+                </Address>
+
+        </AddressHistory>
+</Individual>
+
+<Individual>
+        <FirstName>ALFREDO</FirstName> <MiddleName>A</MiddleName> <LastName>CONCEPCION</LastName>
+        <DateOfBirth>
+                <BirthMonth>05</BirthMonth> <BirthYear>1976</BirthYear>
+        </DateOfBirth>
+
+        <AddressHistory>
+
+                <Address>
+                        <StreetAddress>105 ARNOLD ST APT 3</StreetAddress>
+                        <City>CENTERVILLE</City> <State>GA</State> <Zipcode>31028</Zipcode> <County>HOUSTON</County>
+                        <StartDate>
+                                <Month>07</Month> <Year>2003</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>07</Month> <Year>2003</Year>
+                        </EndDate>
+
+                </Address>
+
+                <Address>
+                        <StreetAddress>800 GUN RD # 231</StreetAddress>
+                        <City>CENTERVILLE</City> <State>GA</State> <Zipcode>31028</Zipcode> <County>HOUSTON</County>
+                        <StartDate>
+                                <Month>05</Month> <Year>2002</Year>
+                        </StartDate>
+
+                        <EndDate>
+                                <Month>05</Month> <Year>2002</Year>
+                        </EndDate>
+
+                </Address>
+
+        </AddressHistory>
+</Individual>
+</AddressHistoryResponse> 
+
+<InstantCriminalResponse>
+	<OffenderCount>2</OffenderCount>
+
+        <Offender>
+                <FileID>0001154874</FileID>
+                <FirstName>ALFREDO</FirstName>
+                <MiddleName/>
+                <LastName>CONCEPCION</LastName>
+                <Generation/>
+                <DOB>5/13/1976</DOB>
+                <MatchType>Exact Name And DOB Match</MatchType>
+
+                <SourceOfRecord sourceType="criminal">Georgia Department of Corrections</SourceOfRecord>
+                <StateOfRecord>GA</StateOfRecord>
+				<Race>White</Race>
+				<Sex>Male</Sex>
+                <Records>
+                        <Record>
+                        	<Offense>FORGERY 1ST DEGREE</Offense>
+                        	<OffenseCounty>Houston</OffenseCounty>
+                        	<Sentence>9.3 years</Sentence>
+                        	<OffenseData>
+                        		<OffenseDetail title="Circuit">Houston</OffenseDetail>
+                        	</OffenseData>
+                        	<CourtData>
+                        		<CourtDetail title="Probation Sentence">beginning 02/04</CourtDetail>
+                        		<CourtDetail title="Sentence Type">Straight Probation (no prison)</CourtDetail>
+                        	</CourtData>
+                        </Record>
+                        
+                        <Record><Offense>FORGERY 1ST DEGREE</Offense><OffenseCounty>Bibb</OffenseCounty><Sentence>8 years</Sentence><OffenseData><OffenseDetail title="Circuit">Macon</OffenseDetail></OffenseData><CourtData><CourtDetail title="Probation Sentence">beginning 05/04</CourtDetail><CourtDetail title="Sentence Type">Straight Probation (no prison)</CourtDetail></CourtData></Record>
+                </Records>
+        </Offender>
+
+        <Offender>
+                <FileID>2888544P</FileID>
+                <FirstName>ALFREDO</FirstName>
+                <MiddleName/>
+                <LastName>CONCEPCION</LastName>
+                <Generation/>
+                <DOB>5/13/1976</DOB>
+                <MatchType>Exact Name And DOB Match</MatchType>
+
+                <SourceOfRecord sourceType="criminal">Georgia Bureau of Investigation(In-State Felony)</SourceOfRecord>
+                <StateOfRecord>GA</StateOfRecord>
+<EyeColor>Brown</EyeColor><HairColor>Black</HairColor><Height>6' 01"</Height><Marks>TAT R ARM</Marks><Race>White</Race><Sex>Male</Sex><Weight>185 lbs</Weight><BirthPlace>NY</BirthPlace>
+                <Records>
+                        <Record><ArrestDate>01/26/2004</ArrestDate><Offense>FORGERY - 1ST DEGREE</Offense><Statute>16-9-1</Statute><DispositionDate>02/05/2004</DispositionDate><OffenseData><OffenseDetail title="Agency">GA0760200</OffenseDetail><OffenseDetail title="Count">01</OffenseDetail><OffenseDetail title="FBI Number">506533TB1</OffenseDetail><OffenseDetail title="Offense Code">2532</OffenseDetail><OffenseDetail title="Tracking Number">117528714</OffenseDetail></OffenseData><ArrestData><ArrestDetail title="Arresting Agency">HOUSTON COUNTY (HOUSTON, GEORGIA)</ArrestDetail></ArrestData><CourtData><CourtDetail title="Probation Sentence">10 years</CourtDetail><CourtDetail title="Sentence Provisions">4CTSCC.</CourtDetail></CourtData></Record>
+                </Records>
+        </Offender>
+
+<Recommendations>
+<CountyRecommendations>
+        <State value="GA">
+                <County value="Bibb">
+
+                        <Offender>
+                                <FirstName>ALFREDO</FirstName>
+                                <MiddleName/>
+                                <LastName>CONCEPCION</LastName>
+                                <FullName>ALFREDO CONCEPCION</FullName>
+                                <DOB>5/13/1976</DOB>
+                                <Offenses>
+                                        <Offense>
+                                                <OffenseDescription>FORGERY 1ST DEGREE</OffenseDescription>
+                                                <ApproximateDate/>
+                                        </Offense>
+                                </Offenses>
+                        </Offender>
+          </County>
+                <County value="Houston">
+
+                        <Offender>
+                                <FirstName>ALFREDO</FirstName>
+                                <MiddleName/>
+                                <LastName>CONCEPCION</LastName>
+                                <FullName>ALFREDO CONCEPCION</FullName>
+                                <DOB>5/13/1976</DOB>
+                                <Offenses>
+                                        <Offense>
+                                                <OffenseDescription>FORGERY 1ST DEGREE</OffenseDescription>
+                                                <ApproximateDate/>
+                                        </Offense>
+                                </Offenses>
+                        </Offender>
+          </County>
+  </State>
+</CountyRecommendations>
+<NonCountyRecommendations>
+        <State value="GA">
+                <SourceOfRecord value="Georgia Bureau of Investigation(In-State Felony)">
+
+                        <Offender>
+                                <FirstName>ALFREDO</FirstName>
+                                <MiddleName/>
+                                <LastName>CONCEPCION</LastName>
+                                <FullName>ALFREDO CONCEPCION</FullName>
+                                <DOB>5/13/1976</DOB>
+                                <Offenses>
+                                        <Offense>
+                                                <OffenseDescription>FORGERY - 1ST DEGREE</OffenseDescription>
+                                                <ApproximateDate>02/05/2004</ApproximateDate>
+                                        </Offense>
+                                </Offenses>
+                        </Offender>
+                </SourceOfRecord>
+        </State>
+</NonCountyRecommendations>
+</Recommendations> </InstantCriminalResponse>
+</Response>
+</DataDiversXML>

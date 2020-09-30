@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><DataDiversXML>
+
+<Authentication>
+	<Username>CSSItest</Username>
+	<Password>lsdkjfoiuwer23489</Password>
+</Authentication>
+<SubjectDetail>
+	<FirstName>Chad</FirstName>
+	<MiddleName></MiddleName>
+	<LastName>Clites</LastName>
+	<DOBMonth>07</DOBMonth>
+	<DOBDay>11</DOBDay>
+	<DOBYear>1968</DOBYear>
+
+	<Age></Age>
+	<FileID></FileID>
+
+	<SSN>504988474</SSN>
+	<NickNames></NickNames>
+	<Aliases>
+	
+		<Alias>
+			<FirstName>CHAD</FirstName>
+			<MiddleName>A</MiddleName>
+			<LastName>CLITES</LastName>
+		</Alias>
+		
+	</Aliases>
+	<ZipCodes>57014,57078,57069,12601,57730,57103</ZipCodes>
+
+</SubjectDetail>
+<ProcessingRules>
+    
+    <InstantCriminalRules>
+        <FirstName>
+            <ExactMatchOnly>Yes</ExactMatchOnly>
+            <TruncationLevel>0</TruncationLevel>
+	    
+	    	<NickNameSearch proximity="1">Yes</NickNameSearch>
+	    
+        </FirstName>
+        <MiddleName>
+            <MatchOnInitial>Yes</MatchOnInitial>
+        </MiddleName>
+        <LastName>
+            <ExactMatchOnly>Yes</ExactMatchOnly>
+            <ParsePunctuation>Yes</ParsePunctuation>
+            <TruncationLevel>0</TruncationLevel>
+        </LastName>
+		<AliasName>
+			<AliasExactNameMatch>Off</AliasExactNameMatch>
+		</AliasName>
+        <Age>
+            <YearRange>0</YearRange>
+        </Age>
+        <DOB>
+            <YearRange>0</YearRange>
+            <IncludeIncompleteDOBMatch>No</IncludeIncompleteDOBMatch>
+            <IncludePartialDOBMatch>No</IncludePartialDOBMatch>
+            <IncludeNullDOBMatch>No</IncludeNullDOBMatch>
+            <ExcludeNullDOBStates />
+        </DOB>
+        <ExcludeArrestData>No</ExcludeArrestData>
+        <ExcludeWarrantData>No</ExcludeWarrantData>
+        <ExcludeFugitiveData>No</ExcludeFugitiveData>
+        <SubCriteria>
+            <ZipcodeMatch Radius="0">No</ZipcodeMatch>
+        </SubCriteria>
+        <SexOffender>
+            <DOB>
+                <YearRange>0</YearRange>
+                <IncludeIncompleteDOBMatch>No</IncludeIncompleteDOBMatch>
+                <IncludePartialDOBMatch>No</IncludePartialDOBMatch>
+                <IncludeNullDOBMatch>No</IncludeNullDOBMatch>
+            </DOB>
+        </SexOffender>
+		
+    </InstantCriminalRules>
+    
+	<AddressHistoryRules>
+		<IncludePartialNameMatch>Yes</IncludePartialNameMatch>
+		<IncludeNonNameMatch>No</IncludeNonNameMatch>
+	</AddressHistoryRules>
+    
+    
+</ProcessingRules>
+<ServiceRequest>
+	<ServiceCode>MultistateFull</ServiceCode>
+	
+	<SmartSearch>Yes</SmartSearch>
+	
+	<States />
+	
+</ServiceRequest>
+
+<Response>
+    <AddressHistoryResponse>
+<Summary>
+	<Status>Record</Status>
+	<StateIssued>South Dakota</StateIssued>
+	<YearIssued>1982-1983</YearIssued>
+	<DeathIndex>No</DeathIndex>
+	
+</Summary>
+
+<Individual>
+	<FirstName>CHAD</FirstName> <MiddleName>A</MiddleName> <LastName>CLITES</LastName> 
+	<DateOfBirth>
+		<BirthMonth>07</BirthMonth> <BirthDay>11</BirthDay> <BirthYear>1968</BirthYear>
+	</DateOfBirth>
+	
+	<AddressHistory>
+		
+		<Address>
+			<StreetAddress>760 MONTANA ST</StreetAddress>
+			<City>CENTERVILLE</City> <State>SD</State> <Zipcode>57014</Zipcode> <County>TURNER</County> 
+			<StartDate>
+				<Month>10</Month> <Year>2006</Year>
+			</StartDate>
+			
+			<EndDate>
+				<Month>04</Month> <Year>2018</Year>
+			</EndDate>
+			
+		</Address>
+		
+		<Address>
+			<StreetAddress>917 MAPLE ST</StreetAddress>
+			<City>YANKTON</City> <State>SD</State> <Zipcode>57078</Zipcode> <County>YANKTON</County> 
+			<StartDate>
+				<Month>12</Month> <Year>1993</Year>
+			</StartDate>
+			
+			<EndDate>
+				<Month>12</Month> <Year>2006</Year>
+			</EndDate>
+			
+		</Address>
+		
+		<Address>
+			<StreetAddress>1209 MADISON ST APT 204</StreetAddress>
+			<City>VERMILLION</City> <State>SD</State> <Zipcode>57069</Zipcode> <County>CLAY</County> 
+			<StartDate>
+				<Month>04</Month> <Year>2004</Year>
+			</StartDate>
+			
+			<EndDate>
+				<Month>09</Month> <Year>2006</Year>
+			</EndDate>
+			
+		</Address>
+		
+		<Address>
+			<StreetAddress>619 E 16TH ST</StreetAddress>
+			<City>YANKTON</City> <State>SD</State> <Zipcode>57078</Zipcode> <County>YANKTON</County> 
+			<StartDate>
+				<Month>04</Month> <Year>1991</Year>
+			</StartDate>
+			
+			<EndDate>
+				<Month>06</Month> <Year>2004</Year>
+			</EndDate>
+			
+		</Address>
+		
+		<Address>
+			<StreetAddress>10 HANKIN LOOP</StreetAddress>
+			<City>POUGHKEEPSIE</City> <State>NY</State> <Zipcode>12601</Zipcode> <County>DUTCHESS</County> 
+			<StartDate>
+				<Month>08</Month> <Year>2003</Year>
+			</StartDate>
+			
+			<EndDate>
+				<Month>08</Month> <Year>2003</Year>
+			</EndDate>
+			
+		</Address>
+		
+	</AddressHistory>
+</Individual>
+
+<Individual>
+	<FirstName>CHAD</FirstName> <MiddleName>A</MiddleName> <LastName>CLITES</LastName> 
+	<DateOfBirth>
+		
+	</DateOfBirth>
+	
+	<AddressHistory>
+		
+		<Address>
+			<StreetAddress>1209 MADISON ST APT 204</StreetAddress>
+			<City>VERMILLION</City> <State>SD</State> <Zipcode>57069</Zipcode> <County>CLAY</County> 
+			<StartDate>
+				<Month>08</Month> <Year>2004</Year>
+			</StartDate>
+			
+			<EndDate>
+				<Month>01</Month> <Year>2011</Year>
+			</EndDate>
+			
+		</Address>
+		
+		<Address>
+			<StreetAddress>918 PINE ST</StreetAddress>
+			<City>YANKTON</City> <State>SD</State> <Zipcode>57078</Zipcode> <County>YANKTON</County> 
+			<StartDate>
+				<Month>08</Month> <Year>1986</Year>
+			</StartDate>
+			
+			<EndDate>
+				<Month>06</Month> <Year>2005</Year>
+			</EndDate>
+			
+		</Address>
+		
+		<Address>
+			<StreetAddress>955 HOMESTEAD DR</StreetAddress>
+			<City>CUSTER</City> <State>SD</State> <Zipcode>57730</Zipcode> <County>CUSTER</County> 
+			<StartDate>
+				<Month>01</Month> <Year>2003</Year>
+			</StartDate>
+			
+			<EndDate>
+				<Month>01</Month> <Year>2003</Year>
+			</EndDate>
+			
+		</Address>
+		
+		<Address>
+			<StreetAddress>3600 E 6TH ST APT 303</StreetAddress>
+			<City>SIOUX FALLS</City> <State>SD</State> <Zipcode>57103</Zipcode> <County>MINNEHAHA</County> 
+			<StartDate>
+				<Month>12</Month> <Year>2001</Year>
+			</StartDate>
+			
+			<EndDate>
+				<Month>01</Month> <Year>2003</Year>
+			</EndDate>
+			
+		</Address>
+		
+	</AddressHistory>
+</Individual>
+
+<Individual>
+	<FirstName>CHAD</FirstName> <MiddleName>A</MiddleName> <LastName>CLITES</LastName> 
+	<DateOfBirth>
+		<BirthMonth>07</BirthMonth> <BirthYear>1968</BirthYear>
+	</DateOfBirth>
+	
+	<AddressHistory>
+		
+		<Address>
+			<StreetAddress>918 PINE ST</StreetAddress>
+			<City>YANKTON</City> <State>SD</State> <Zipcode>57078</Zipcode> <County>YANKTON</County> 
+			<StartDate>
+				<Month>12</Month> <Year>1993</Year>
+			</StartDate>
+			
+			<EndDate>
+				<Month>06</Month> <Year>1998</Year>
+			</EndDate>
+			
+		</Address>
+		
+	</AddressHistory>
+</Individual>
+</AddressHistoryResponse> <InstantCriminalResponse>
+<OffenderCount>0</OffenderCount>
+</InstantCriminalResponse> 
+</Response>
+</DataDiversXML>   

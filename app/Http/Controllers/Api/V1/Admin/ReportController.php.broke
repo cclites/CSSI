@@ -1,0 +1,484 @@
+<?php
+
+namespace App\Http\Controllers\Api\V1\Admin;
+
+// Models
+use App\Models\User;
+use App\Models\Company;
+use App\Models\Transaction;
+//use App\Models\Location;
+//use App\Models\Googleplace;
+//use App\Models\Facebookpage;
+//use App\Models\Reviewinvite;
+//use App\Models\Email;
+//use App\Models\Text;
+use App\Models\Type;
+//use App\Models\Review;
+//use App\Models\Snapshot;
+use App\Models\Check;
+use App\Models\Checktype;
+use App\Models\State;
+use App\Models\County;
+use App\Models\Invoice;
+
+//use App\Commands\CustomReport;
+
+// Transformers
+use \App\Transformers\Api\V1\TransactionTransformer;
+use \App\Transformers\Api\V1\UserTransformer;
+
+// Exceptions
+use Dingo\Api\Exception\DeleteResourceFailedException;
+use Dingo\Api\Exception\ResourceException;
+use Dingo\Api\Exception\StoreResourceFailedException;
+use Dingo\Api\Exception\UpdateResourceFailedException;
+
+use Mail;
+use DB;
+use Hash;
+use Validator;
+use Carbon\Carbon;
+use Illuminate\Http\Request;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+use Log;
+use Cache;
+
+class ReportController extends Controller
+{
+	
+    public function checksForDay(Request $request){
+    	
+		Log::info("Api/V1/Admin/ReportController:checksForDay");
+		
+		$info = [];
+		$cssiData = [11,12,13];
+		$amount = 0;
+		$count = 0;
+		
+		Cache::forget('cfd');
+		
+		Log::info("DROPPED CACHE");
+		
+		$transactions = Transaction::whereBetween('created_at', [
+									Carbon::now()->startOfDay(),
+									Carbon::now()->endOfDay()
+								])
+								->where('amount', '>', 0)
+								->where('deleted', false)
+								->get();
+								
+		Log::info("Grabbed Transactions");
+		Log::info(json_encode($transactions));
+								
+		$checktypes = Checktype::whereBetween('created_at', [
+									Carbon::now()->startOfDay(),
+									Carbon::now()->endOfDay()
+								])
+								->whereNotNull('completed_at')
+								->get();
+								
+		Log::info("Grabbed checktypes");
+		Log::info(json_encode($checktypes));
+														
+		$averages = $this->generateAverageAmountByType($checktypes);
+		
+		Log::info("AVERAGES **************************");
+		
+		//$s = print_r($averages, true);
+		//Log::info($s);
+								
+		$info['amount'] = $transactions->sum('amount');
+		
+		foreach($transactions as $transaction){
+			
+			$types = explode(",", $transaction->check_type);
+			
+			foreach($types as $type){
+				
+				if($type){
+					$type = intval($type);
+					
+					if(!in_array($type, $cssiData)){
+						$count += 1;
+					}	
+				}
+				
+			}
+				
+		}
+		
+		$info['count'] = $count;
+		$info['checks'] = $this->calculateTypeTotals($transactions);
+		$info['averages'] = $averages;
+		
+		Cache::put('cfd', $info, 5);
+		
+		return $info;
+	
+    }
+	
+	public function checksForMonth(Request $request){
+
+		Log::info("Api/V1/Admin/ReportController:checksForMonth");
+
+		$info = [];
+		$cssiData = [11,12,13];
+		$amount = 0;
+		$count=0;
+		
+		if(Cache::has('cfm')){
+			$info =  Cache::get('cfm');
+		}else{
+			
+			$transactions = Transaction::whereBetween('created_at', [
+									Carbon::now()->startOfMonth()->startOfDay(),
+									Carbon::now()->subDay()->endOfDay()
+								])
+								->where('deleted', false)
+								->where('amount', '>', 0)
+								->get();
+								
+			$checktypes = Checktype::whereBetween('created_at', [
+									Carbon::now()->startOfMonth()->startOfDay(),
+									Carbon::now()->subDay()->endOfDay()
+								])
+								->whereNotNull('completed_at')
+								->get();
+														
+			$averages = $this->generateAverageAmountByType($checktypes);
+								
+			$info['amount'] = $transactions->sum('amount');
+			
+			foreach($transactions as $transaction){
+				
+				$types = explode(",", $transaction->check_type);
+				
+				foreach($types as $type){
+					
+					if($type){
+						$type = intval($type);
+						
+						if(!in_array($type, $cssiData)){
+							$count += 1;
+						}	
+					}
+					
+				}
+				
+				
+			}
+		
+			$info['count'] = $count;
+			$info['checks'] = $this->calculateTypeTotals($transactions);
+			$info['averages'] = $averages;
+
+			Cache::put('cfm', $info, 1440);
+			 
+		}
+
+        
+		$cfd = Cache::get('cfd');
+		
+		$info["count"] += $cfd["count"];
+		$info["amount"] += $cfd["amount"];
+		
+		$cfdChecks = (array)$cfd["checks"];
+		$cfmChecks = (array)$info["checks"];
+		
+		$indices = array_keys($cfdChecks);
+		
+		foreach($indices as $i){
+			
+			if( isset($cfmChecks[$i]) ){
+				$cfmChecks[$i]['count'] += $cfdChecks[$i]['count'];
+			}else{
+				$cfmChecks[$i] = $cfdChecks[$i];
+			}
+			
+		}
+		
+		$info['checks'] = $cfmChecks;
+		
+		
+		Cache::add('mtd', $info, 1440);
+
+		return $info;
+	}
+	
+	public function checksForPriorMonth(Request $request){
+		
+		$info = [];
+		$cssiData = [11,12,13];
+		$amount = 0;
+		$count=0;
+		
+		if(Cache::has('cpm')){
+			$info =  Cache::get('cpm');
+		}else{
+			
+			//Do not include transactions that have not been invoiced. 
+			$transactions = Transaction::whereBetween('created_at', [
+									Carbon::today()->startOfMonth()->subMonth()->startOfDay(),
+									Carbon::today()->subMonth()->endOfMonth()->endOfDay()
+								])
+								->where('deleted', false)
+								->where('amount', '>', 0)
+								->whereNotNull('invoice_id')
+								->get();
+								
+			$checktypes = Checktype::whereBetween('created_at', [
+									Carbon::today()->startOfMonth()->subMonth()->startOfDay(),
+									Carbon::today()->subMonth()->endOfMonth()->endOfDay()
+								])
+								->whereNotNull('completed_at')
+								->get();
+														
+			$averages = $this->generateAverageAmountByType($checktypes);
+								
+			$info['amount'] = $transactions->sum('amount');
+			
+			foreach($transactions as $transaction){
+				
+				$types = explode(",", $transaction->check_type);
+				
+				foreach($types as $type){
+					
+					if($type){
+						$type = intval($type);
+						
+						if(!in_array($type, $cssiData)){
+							$count += 1;
+						}	
+					}
+					
+				}	
+			}
+			
+			$info['count'] = $count;
+			$info['checks'] = $this->calculateTypeTotals($transactions);
+			$info['averages'] = $averages;
+			
+			Cache::put('cpm', $info, 1440);	
+		}
+
+		return $info;
+	}
+	
+	public function checksForYtd(Request $request){
+		
+		Log::info("V1/Admin/ReportController");
+		
+		$info = [];
+		$cssiData = [11,12,13];
+		$amount = 0;
+		$count = 0;
+		
+		if(Cache::has('ytd')){
+			$info = Cache::get('ytd');
+			Log::info("Using cached version of YTD");
+		}else{
+			
+			Log::info("Getting new YTD transactions");
+			
+			$transactions = Transaction::whereBetween('created_at', [
+									Carbon::now()->startOfYear()->startOfDay(),
+									Carbon::now()->subMonth()->endOfMonth()->endOfDay()
+								])
+								->where('deleted', false)
+								->where('amount', '>', 0)
+								->get();
+								
+			$checktypes = Checktype::whereBetween('created_at', [
+									Carbon::today()->startOfMonth()->subMonth()->startOfDay(),
+									Carbon::today()->subMonth()->endOfMonth()->endOfDay()
+								])
+								->whereNotNull('completed_at')
+								->get();
+								
+			$averages = $this->generateAverageAmountByType($checktypes);
+			
+			$info['amount'] = $transactions->sum('amount');
+			
+			foreach($transactions as $transaction){
+				
+				$types = explode(",", $transaction->check_type);
+				
+				foreach($types as $type){
+					
+					if($type){
+						$type = intval($type);
+						
+						if(!in_array($type, $cssiData)){
+							$count += 1;
+						}	
+					}
+					
+				}
+			}
+			
+			$info['count'] = $count;
+			$info['checks'] = $this->calculateTypeTotals($transactions);
+			$info['averages'] = $averages;
+			
+			Cache::put('ytd', $info, 259200);
+		}
+		
+		//Log::info("Pre-Count is " . $info["count"]);
+		//Log::info("Pre-amount is " . $info["amount"]);
+		//Log::info(json_encode($info["checks"]));
+
+		$mtd = Cache::get('mtd');
+		$info["count"] += $mtd["count"];
+		$info["amount"] += $mtd["amount"];
+		
+		$mtdChecks = $mtd["checks"];
+		$ytdChecks = $info["checks"];
+		
+		$indices = array_keys($mtdChecks);
+		
+		foreach($indices as $i){
+			
+			if( isset($ytdChecks[$i]) ){
+				$ytdChecks[$i]['count'] += $mtdChecks[$i]['count'];
+			}else{
+				$ytdChecks[$i] = $mtdChecks[$i];
+			}
+		}
+		
+		$info['checks'] = $ytdChecks;
+		
+		//Log::info("Pre-Count is " . $info["count"]);
+		//Log::info("Pre-amount is " . $info["amount"]);
+		//Log::info(json_encode($info["checks"]));
+		
+
+		return $info;
+	}
+	
+	public function calculateChecktypeTotals($checkTypes){
+		
+		$typeObjs = cache("types");
+		$typeCount = Type::count();
+		$instantiateArray = array_fill(1, $typeCount, 0);
+		$totals = [];
+		
+		foreach($checkTypes as $type){
+			
+			//Log::info(json_encode($type));
+			
+			if(isset($totals[$type->type_id])){
+				$totals[$type->type_id]['count'] += 1;
+			}else{
+				$totals[$type->type_id]['count'] = 1;
+				$totals[$type->type_id]['title'] = $typeObjs[$type->type_id - 1]->title;
+				$totals[$type->type_id]['type_id'] = $typeObjs[$type->type_id - 1]->id;
+			}
+			
+		}
+		
+		return $totals;
+	}
+	
+	public function calculateTypeTotals($transactions){
+		
+		$typeObjs = cache("types");
+
+		$typeCount = Type::count();
+		$instantiateArray = array_fill(1, $typeCount, 0);
+		$totals = [];
+		
+		$totalsArray = [];
+		
+		foreach($transactions as $transaction){
+			
+			$types = explode(",", $transaction->check_type);
+
+			foreach($types as $type){
+				
+				if($type){
+					
+					$type = intval($type);
+					
+					if( !in_array($type, [11,12,13]) ){
+						
+						/*
+						if(isset($totalsArray[$type])){
+							
+							$totalsArray[$type]["count"] += 1;
+							
+						}else{
+							
+							$totalsArray[$type]["count"] = 1;
+						}*/
+						
+						if(isset($totals[$type])){
+							$totals[$type]['count'] += 1;
+							//$totals[$type]['times'][] = $type->created_at;
+						}else{
+							$totals[$type]['count'] = 1;
+							$totals[$type]['title'] = $typeObjs[$type-1]->title;
+							$totals[$type]['type_id'] = $typeObjs[$type-1]->id;
+							$totals[$type]['color'] = $typeObjs[$type-1]->color;
+							//$totals[$type]['times'][] = $type->created_at;
+						}	
+					}	
+				}
+			}
+		}
+		
+		//Log::info(json_encode($totals));
+		
+		return $totals;
+		
+	}
+
+	
+	//This needs to go to
+	
+	public function createCustomTransactionsReport(Request $request){
+		
+		Log::info("Api/V1/Admin/ReportController::customCheck");
+		
+		$rl = new \App\Http\Controllers\Library\Api\Admin\ReportsLibrary;
+		return $rl->createTransactionsReport($request->all());
+	
+	}
+	
+	public function generateAverageAmountByType($checktypes){
+		
+		$averagesByCheck = [];
+		
+		foreach($checktypes as $checktype){
+			
+			if( isset($averagesByCheck[$checktype->type_id]["count"]) ){
+				
+				$averagesByCheck[$checktype->type_id]["amount"] += $checktype->price();
+				$averagesByCheck[$checktype->type_id]["count"] += 1;
+				$averagesByCheck[$checktype->type_id]["timestamp"][] = $checktype->created_at;
+				$averagesByCheck[$checktype->type_id]["average"] = $averagesByCheck[$checktype->type_id]["amount"]/$averagesByCheck[$checktype->type_id]["count"];
+				
+			}else{
+
+				$averagesByCheck[$checktype->type_id]["amount"] = $checktype->price();
+				$averagesByCheck[$checktype->type_id]["count"] = 1;
+				$averagesByCheck[$checktype->type_id]["timestamp"][] = $checktype->created_at;
+			    $averagesByCheck[$checktype->type_id]["average"] = $averagesByCheck[$checktype->type_id]["amount"]/$averagesByCheck[$checktype->type_id]["count"];
+			}
+			
+		}
+		
+		return $averagesByCheck;
+		
+	}
+	
+	public function getTopStateCheck($limit=1){
+
+		return DB::table('check_state')
+	                 ->select('state_id', DB::raw('COUNT(state_id) AS count'))
+	                 ->groupBy('state_id')
+	                 ->get();
+	}
+
+	
+}

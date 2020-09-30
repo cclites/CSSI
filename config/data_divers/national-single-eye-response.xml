@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><DataDiversXML>
+<Authentication>
+	<Username>CSSItest</Username>
+	<Password>lsdkjfoiuwer23489</Password>
+</Authentication>
+<SubjectDetail>
+	<FirstName>Chad</FirstName>
+	<MiddleName></MiddleName>
+	<LastName>Clites</LastName>
+	<DOBMonth>07</DOBMonth>
+	<DOBDay>11</DOBDay>
+	<DOBYear>1968</DOBYear>
+
+	<Age></Age>
+	<FileID></FileID>
+
+	<SSN></SSN>
+	<NickNames></NickNames>
+	<Aliases>
+	
+	</Aliases>
+	<ZipCodes></ZipCodes>
+
+</SubjectDetail>
+<ProcessingRules>
+    
+    <InstantCriminalRules>
+        <FirstName>
+            <ExactMatchOnly>Yes</ExactMatchOnly>
+            <TruncationLevel>0</TruncationLevel>
+	    
+	    	<NickNameSearch proximity="1">Yes</NickNameSearch>
+	    
+        </FirstName>
+        <MiddleName>
+            <MatchOnInitial>Yes</MatchOnInitial>
+        </MiddleName>
+        <LastName>
+            <ExactMatchOnly>Yes</ExactMatchOnly>
+            <ParsePunctuation>Yes</ParsePunctuation>
+            <TruncationLevel>0</TruncationLevel>
+        </LastName>
+		<AliasName>
+			<AliasExactNameMatch>Off</AliasExactNameMatch>
+		</AliasName>
+        <Age>
+            <YearRange>0</YearRange>
+        </Age>
+        <DOB>
+            <YearRange>0</YearRange>
+            <IncludeIncompleteDOBMatch>No</IncludeIncompleteDOBMatch>
+            <IncludePartialDOBMatch>No</IncludePartialDOBMatch>
+            <IncludeNullDOBMatch>No</IncludeNullDOBMatch>
+            <ExcludeNullDOBStates />
+        </DOB>
+        <ExcludeArrestData>No</ExcludeArrestData>
+        <ExcludeWarrantData>No</ExcludeWarrantData>
+        <ExcludeFugitiveData>No</ExcludeFugitiveData>
+        <SubCriteria>
+            <ZipcodeMatch Radius="0">No</ZipcodeMatch>
+        </SubCriteria>
+        <SexOffender>
+            <DOB>
+                <YearRange>0</YearRange>
+                <IncludeIncompleteDOBMatch>No</IncludeIncompleteDOBMatch>
+                <IncludePartialDOBMatch>No</IncludePartialDOBMatch>
+                <IncludeNullDOBMatch>No</IncludeNullDOBMatch>
+            </DOB>
+        </SexOffender>
+		
+    </InstantCriminalRules>
+    
+    
+</ProcessingRules>
+<ServiceRequest>
+	<ServiceCode>MultistateFull</ServiceCode>
+	
+	<SmartSearch>No</SmartSearch>
+	
+	<States />
+	
+</ServiceRequest>
+
+<Response>
+    <InstantCriminalResponse>
+<OffenderCount>0</OffenderCount>
+</InstantCriminalResponse> 
+</Response>
+</DataDiversXML>   

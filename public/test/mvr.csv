@@ -1,0 +1,683 @@
+ID,Original ID,Created,Company,Name,Description,Amount
+280980,,2019-01-01 12:29:55,SafeDrivers,Nicholas Allen,Illinois,17.00
+280981,,2019-01-01 12:33:16,SafeDrivers,Saurabh Kulkarni,California,7.00
+280983,,2019-01-01 13:54:57,SafeDrivers,Jun Lewis,Illinois,17.00
+280985,,2019-01-02 00:05:13,SafeDrivers,Brennan Mclennan,California,7.00
+280986,,2019-01-02 01:16:52,SafeDrivers,Leticia Villasana,Georgia,11.00
+280991,,2019-01-02 12:45:55,SafeDrivers,Eugene Carmen,South Carolina,12.25
+280992,,2019-01-02 12:47:34,SafeDrivers,Lisa Pollina,New York,12.00
+280993,,2019-01-02 12:50:41,SafeDrivers,Sanjay Bonthapally,California,7.00
+280994,,2019-01-02 12:51:18,SafeDrivers,Cassidy Ball,California,7.00
+280995,,2019-01-02 12:52:02,SafeDrivers,Candace Glynn,North Carolina,15.00
+280996,,2019-01-02 12:57:24,SafeDrivers,Sanjay Bonthapally,California,7.00
+280997,,2019-01-02 12:58:24,SafeDrivers,Candace Glynn,North Carolina,15.00
+280999,,2019-01-02 13:50:41,SafeDrivers,Jason Leclair,Florida,13.02
+281000,,2019-01-02 13:51:27,SafeDrivers,Wendy VanVelzen,Illinois,17.00
+281013,,2019-01-02 14:47:04,SafeDrivers,Michael Carlton,Georgia,11.00
+281020,,2019-01-02 15:25:06,SafeDrivers,Veniamin Korovnik,Washington,18.00
+281022,,2019-01-02 15:35:05,SafeDrivers,Denise Semashko,Florida,13.02
+281037,,2019-01-02 16:54:25,SafeDrivers,Angela Osborne,Florida,13.02
+281043,,2019-01-02 16:58:28,SafeDrivers,Ronald Merullo,New York,12.00
+281045,,2019-01-02 17:14:17,SafeDrivers,Nancy Lockridge,Nevada,13.00
+281046,,2019-01-02 17:16:29,SafeDrivers,Katherine Moreau,New Hampshire,18.00
+281048,,2019-01-02 17:23:27,SafeDrivers,Timothy Kiepura,Illinois,17.00
+281049,,2019-01-02 17:23:56,SafeDrivers,Timothy Kiepura,Illinois,17.00
+281053,,2019-01-02 17:45:01,SafeDrivers,Judd Hoffman,California,7.00
+281058,,2019-01-02 18:04:15,SafeDrivers,Edward Verdugo,California,7.00
+281064,,2019-01-02 18:26:10,SafeDrivers,Katherine Moreau,New Hampshire,18.00
+281066,,2019-01-02 18:42:40,SafeDrivers,Michael Sheehan,Florida,13.02
+281071,,2019-01-02 18:51:46,SafeDrivers,Walter Moore,West Virginia,17.50
+281072,,2019-01-02 18:52:26,SafeDrivers,Nicholas Gries,Indiana,12.50
+281080,,2019-01-02 19:23:34,SafeDrivers,Zongchang Wang,California,7.00
+281081,,2019-01-02 19:24:20,SafeDrivers,Cory Maxson,South Carolina,12.25
+281084,,2019-01-02 19:28:38,SafeDrivers,Robert Chavira,Nevada,13.00
+281091,,2019-01-02 20:04:38,SafeDrivers,Francisco Borra,Kansas,18.70
+281105,,2019-01-02 20:44:28,SafeDrivers,Murat Kucukcapraz,Arizona,13.00
+281107,,2019-01-02 20:47:13,SafeDrivers,Stephen Hoskins,Ohio,10.00
+281108,,2019-01-02 20:47:43,SafeDrivers,Claudia Zemeno,California,7.00
+281110,,2019-01-02 20:55:32,SafeDrivers,Thomas Carver,California,7.00
+281119,,2019-01-02 21:24:28,SafeDrivers,Dylan Diaz,Illinois,17.00
+281122,,2019-01-02 21:30:17,SafeDrivers,Ezequiel Miramontes,California,7.00
+281128,,2019-01-02 21:49:14,NewRichmondSchoolDistrict,Richard McNitt,Wisconsin,12.00
+281129,,2019-01-02 21:52:01,MaytagAircraftCorporation,Victoria Biggins,Ohio,10.00
+281130,,2019-01-02 21:54:16,MaytagAircraftCorporation,Michael Binder,Washington,18.00
+281132,,2019-01-02 21:56:35,MaytagAircraftCorporation,Greg Brown,Texas,11.50
+281133,,2019-01-02 21:58:23,SafeDrivers,Jordan Mcclure,California,7.00
+281134,,2019-01-02 22:10:21,MaytagAircraftCorporation,Kashif Clary,Florida,13.02
+281136,,2019-01-02 22:13:28,MaytagAircraftCorporation,Justin Colla,Florida,13.02
+281137,,2019-01-02 22:15:36,MaytagAircraftCorporation,Zackary Delorso,South Carolina,12.25
+281138,,2019-01-02 22:23:27,MaytagAircraftCorporation,James Gardner,Texas,11.50
+281139,,2019-01-02 22:24:46,SafeDrivers,Sheila Morales,Florida,13.02
+281140,,2019-01-02 22:30:22,MaytagAircraftCorporation,Robert Hazelett,Arizona,13.00
+281141,,2019-01-02 22:32:01,MaytagAircraftCorporation,Cody Jackson,Arizona,13.00
+281142,,2019-01-02 22:34:31,MaytagAircraftCorporation,Robert Kervin,New Jersey,17.00
+281144,,2019-01-02 22:40:02,SafeDrivers,Raymond Wright,Kentucky,10.50
+281145,,2019-01-02 22:41:31,MaytagAircraftCorporation,Dwayne Lowry,Virginia,13.00
+281146,,2019-01-02 22:55:23,MaytagAircraftCorporation,Paul Lujan,New Mexico,11.50
+281147,,2019-01-02 22:58:04,MaytagAircraftCorporation,Otto Montgomery,Alabama,15.00
+281149,,2019-01-02 23:00:47,MaytagAircraftCorporation,Bryan Oliveira,California,7.00
+281151,,2019-01-02 23:08:39,MaytagAircraftCorporation,Sean Schuster,Colorado,7.20
+281152,,2019-01-02 23:13:15,MaytagAircraftCorporation,Clayton Stoll,California,7.00
+281153,,2019-01-02 23:25:08,SafeDrivers,Rodger McLaughlin,Colorado,7.20
+281155,,2019-01-03 00:10:20,SafeDrivers,Christina Bryant,Tennessee,12.50
+281156,,2019-01-03 00:44:23,SafeDrivers,Shawn Grover,New Hampshire,18.00
+281157,,2019-01-03 02:07:59,SafeDrivers,Jose Contreras,Illinois,17.00
+281158,,2019-01-03 03:17:41,SafeDrivers,Diljot Boparai,California,7.00
+281160,,2019-01-03 10:44:43,SafeDrivers,Christopher Patzan Lopez,California,7.00
+281161,,2019-01-03 10:46:18,SafeDrivers,Sarah Smith,Virginia,13.00
+281162,,2019-01-03 12:14:39,SafeDrivers,Garrett Saurborn,West Virginia,17.50
+281166,,2019-01-03 13:26:22,SafeDrivers,Omar Johnson,New York,12.00
+281174,,2019-01-03 14:08:26,SafeDrivers,Melissa Foster,New York,12.00
+281182,,2019-01-03 14:27:23,SafeDrivers,James Tito,Illinois,17.00
+281188,,2019-01-03 14:50:34,SafeDrivers,Cleveden Kingston,California,7.00
+281191,,2019-01-03 15:23:32,SafeDrivers,Bruce Harvell,Arizona,13.00
+281192,,2019-01-03 15:24:58,SafeDrivers,Cesar Deoliveira,Rhode Island,25.00
+281203,,2019-01-03 16:06:45,SafeDrivers,Michelle Houvener,Michigan,16.00
+281204,,2019-01-03 16:11:45,SafeDrivers,Fred Rivas,Texas,11.50
+281207,,2019-01-03 16:20:23,SafeDrivers,Rhonda Romine,Florida,13.02
+281208,,2019-01-03 16:21:48,SafeDrivers,Andrew Arnold,North Carolina,15.00
+281212,,2019-01-03 16:38:49,SafeDrivers,Margaret Shank,Florida,13.02
+281223,,2019-01-03 17:05:22,SafeDrivers,Jeremy Mattingly,Georgia,11.00
+281224,,2019-01-03 17:07:13,SafeDrivers,Terrell Ellis,Michigan,16.00
+281225,,2019-01-03 17:09:04,SafeDrivers,Eva Orrego,New York,12.00
+281226,,2019-01-03 17:10:47,SafeDrivers,Anthony Meza,Arizona,13.00
+281227,,2019-01-03 17:12:32,SafeDrivers,Anthony Janiec,Illinois,17.00
+281240,,2019-01-03 18:13:22,SafeDrivers,Jeffery Rawlins,Georgia,11.00
+281251,,2019-01-03 19:15:23,SafeDrivers,Timothy Wagner,Kansas,18.70
+281259,,2019-01-03 19:59:19,SafeDrivers,Douglas Schmidt,Kansas,18.70
+281261,,2019-01-03 20:17:24,SafeDrivers,Jose Contreras,Illinois,17.00
+281262,,2019-01-03 20:19:41,SafeDrivers,Alexander Gwinn,South Carolina,12.25
+281263,,2019-01-03 20:28:57,SafeDrivers,Mirian Etelmina Sarmiento Padilla,California,7.00
+281266,,2019-01-03 20:35:53,SafeDrivers,Edrice Simmons,Illinois,17.00
+281267,,2019-01-03 20:42:30,SafeDrivers,Delbert Horton,Illinois,17.00
+281273,,2019-01-03 21:07:18,CramerSecurityInvestigationsInc,THOMAS BELCHER,West Virginia,17.50
+281281,,2019-01-03 21:40:37,SafeDrivers,Landon Nail,California,7.00
+281286,,2019-01-03 22:12:38,SafeDrivers,Joseph Long,California,7.00
+281290,,2019-01-03 23:44:03,SafeDrivers,Amy Orris,California,7.00
+281292,,2019-01-04 00:23:48,SafeDrivers,Matt Pulcifer,California,7.00
+281293,,2019-01-04 00:25:33,SafeDrivers,Jasmine East,Ohio,10.00
+281294,,2019-01-04 01:29:36,SafeDrivers,Martin Miller,Florida,13.02
+281295,,2019-01-04 02:00:19,SafeDrivers,Chang Su,California,7.00
+281296,,2019-01-04 02:57:07,SafeDrivers,Stephen Duncan,New York,12.00
+281297,,2019-01-04 03:04:34,SafeDrivers,Keeei Heupel,Illinois,17.00
+281298,,2019-01-04 04:29:50,SafeDrivers,Keeri Heupel,Illinois,17.00
+281304,,2019-01-04 11:53:15,SafeDrivers,Jean Carlos Arias,New York,12.00
+281305,,2019-01-04 11:54:55,SafeDrivers,Chelsea Gaul,Illinois,17.00
+281306,,2019-01-04 11:55:55,SafeDrivers,Jean Carlos Arias,New York,12.00
+281308,,2019-01-04 13:27:28,SafeDrivers,Jhonny Martinez,New York,12.00
+281314,,2019-01-04 14:05:25,SafeDrivers,Bernard Jones,New York,12.00
+281319,,2019-01-04 14:37:41,SafeDrivers,Michele Pierce,Rhode Island,25.00
+281323,,2019-01-04 14:51:46,SafeDrivers,Michael Downs,Washington,18.00
+281334,,2019-01-04 15:27:48,SafeDrivers,Michelle Krystofolski,North Carolina,15.00
+281335,,2019-01-04 15:29:23,SafeDrivers,Michael Relstab,California,7.00
+281341,,2019-01-04 15:50:09,SafeDrivers,Anthony Turner,Minnesota,10.00
+281344,,2019-01-04 15:55:54,SafeDrivers,Jason Alexander,California,7.00
+281351,,2019-01-04 16:25:19,SafeDrivers,Thomas Zarebczan,Illinois,17.00
+281356,,2019-01-04 17:00:11,SafeDrivers,Lizbeth Fajardo,California,7.00
+281367,,2019-01-04 17:46:22,SafeDrivers,Brandon Doughty,California,7.00
+281373,,2019-01-04 17:59:09,SafeDrivers,Rachel Toles,California,7.00
+281374,,2019-01-04 18:01:29,SafeDrivers,Jerry Sipes,New Hampshire,18.00
+281375,,2019-01-04 18:02:29,SafeDrivers,Rachel Toles,California,7.00
+281380,,2019-01-04 18:11:46,SafeDrivers,Michael Williams,California,7.00
+281381,,2019-01-04 18:12:41,SafeDrivers,Jerry Long,Illinois,17.00
+281383,,2019-01-04 18:20:07,ParkTransportation,Pablo Amaya,Illinois,17.00
+281384,,2019-01-04 18:21:31,SafeDrivers,Alicia Bennett,Illinois,17.00
+281385,,2019-01-04 18:21:35,ParkTransportation,Robert Jiles,Illinois,17.00
+281386,,2019-01-04 18:23:00,SafeDrivers,Thomas Mulhern,Illinois,17.00
+281387,,2019-01-04 18:24:18,SafeDrivers,Caleb Eggleston,Colorado,7.20
+281388,,2019-01-04 18:25:26,SafeDrivers,Dale Wolfe,North Carolina,15.00
+281390,,2019-01-04 18:28:31,SafeDrivers,Thomas Mulhern,Georgia,11.00
+281393,,2019-01-04 18:29:46,SafeDrivers,Caleb Eggleston,Colorado,7.20
+281398,,2019-01-04 18:47:01,SafeDrivers,Jeremy Jensen,Florida,13.02
+281399,,2019-01-04 18:48:02,SafeDrivers,Kyra Argyrakis,Illinois,17.00
+281403,,2019-01-04 18:53:19,SafeDrivers,Brandon Doughty,California,7.00
+281405,,2019-01-04 18:57:58,SafeDrivers,Javier Valdivia,California,7.00
+281408,,2019-01-04 19:02:54,SchoolDistrictofBloomer,JACLYN JOHNSON,Wisconsin,12.00
+281411,,2019-01-04 19:05:50,SafeDrivers,Daniel Gil,Washington,18.00
+281415,,2019-01-04 19:39:21,SafeDrivers,William Centeno,California,7.00
+281430,,2019-01-04 20:16:18,SafeDrivers,Michelle Reed,Arkansas,18.00
+281431,,2019-01-04 20:16:57,SafeDrivers,Susan Christiansen,California,7.00
+281451,,2019-01-04 21:23:52,SafeDrivers,Harpreet Singh,California,7.00
+281454,,2019-01-04 21:25:00,SafeDrivers,Laura Martin,California,7.00
+281457,,2019-01-04 21:32:33,SafeDrivers,Emily Sprong,Colorado,7.20
+281458,,2019-01-04 21:33:33,SafeDrivers,Joshua Prokop,Illinois,17.00
+281460,,2019-01-04 21:41:49,SafeDrivers,John Morris,California,7.00
+281470,,2019-01-04 22:07:48,SafeDrivers,Jordan Espana,California,7.00
+281478,,2019-01-04 23:18:32,SafeDrivers,JESUS AVILA,California,7.00
+281479,,2019-01-04 23:25:39,SafeDrivers,Riva Gillin,Illinois,17.00
+281482,,2019-01-05 01:06:25,SafeDrivers,Michelle Reed,Illinois,17.00
+281486,,2019-01-05 01:15:07,SafeDrivers,Alexander Leal,California,7.00
+281487,,2019-01-05 01:16:28,SafeDrivers,Natalie Bicklein,Illinois,17.00
+281488,,2019-01-05 01:55:38,SafeDrivers,MARTIN MILLER,Florida,13.02
+281489,,2019-01-05 03:24:06,SafeDrivers,David Carberry,Ohio,10.00
+281490,,2019-01-05 03:32:15,SafeDrivers,Richard Mayes Jr,Florida,13.02
+281491,,2019-01-05 12:17:44,SafeDrivers,Wanda Timmons,Michigan,16.00
+281492,,2019-01-05 14:55:21,SafeDrivers,Pauline Breaton,Georgia,11.00
+281493,,2019-01-05 17:15:20,SafeDrivers,William Sulzener,North Carolina,15.00
+281494,,2019-01-05 17:16:49,SafeDrivers,William Anderson,Florida,13.02
+281495,,2019-01-05 17:18:32,SafeDrivers,Pauline Breaton,South Carolina,12.25
+281497,,2019-01-05 19:31:19,SafeDrivers,Sandra Purcell,California,7.00
+281498,,2019-01-05 20:48:15,SafeDrivers,Anthony Williams,New York,12.00
+281499,,2019-01-05 22:53:49,SafeDrivers,Alec Braz,Florida,13.02
+281500,,2019-01-06 03:37:30,SafeDrivers,Jeffren DelaCruz,Washington,18.00
+281501,,2019-01-06 03:40:00,SafeDrivers,Jeffren DelaCruz,Washington,18.00
+281502,,2019-01-06 19:06:57,SafeDrivers,Dawayne Eason,Georgia,11.00
+281503,,2019-01-06 19:08:08,SafeDrivers,Elena Elena,Illinois,17.00
+281513,,2019-01-07 01:24:35,SafeDrivers,Erick Chavis,North Carolina,15.00
+281514,,2019-01-07 01:25:43,SafeDrivers,Kathleen Harris,Arizona,13.00
+281515,,2019-01-07 01:26:24,SafeDrivers,Erick Chavis,North Carolina,15.00
+281516,,2019-01-07 02:54:39,SafeDrivers,Casey Wtikowskie,South Carolina,12.25
+281517,,2019-01-07 02:55:34,SafeDrivers,DeMarcus Tinnel,Illinois,17.00
+281522,,2019-01-07 11:49:56,SafeDrivers,Jaremy Daugherty,California,7.00
+281523,,2019-01-07 11:51:04,SafeDrivers,Melody Myers,Tennessee,12.50
+281525,,2019-01-07 12:46:51,SafeDrivers,Roy Knox,Kansas,18.70
+281526,,2019-01-07 12:47:56,SafeDrivers,Faisal Waseem,Illinois,17.00
+281527,,2019-01-07 12:53:18,SafeDrivers,Satish Polumati,Illinois,17.00
+281538,,2019-01-07 14:03:22,SafeDrivers,Randy Peebles,North Carolina,15.00
+281553,,2019-01-07 15:27:16,SafeDrivers,Freddie Blondet,New York,12.00
+281556,,2019-01-07 15:30:12,SafeDrivers,Dylan Taylor,Michigan,16.00
+281563,,2019-01-07 16:05:13,ParkTransportation,Daivin Redmond,Illinois,17.00
+281572,,2019-01-07 16:32:27,SafeDrivers,Craig Leidelmeijer,Florida,13.02
+281573,,2019-01-07 16:34:09,SafeDrivers,Carol Giovanazi Willison,Illinois,17.00
+281589,,2019-01-07 17:32:05,BlueMoonPizzaBuckhead,Patrick Garrity,Georgia,11.00
+281598,,2019-01-07 17:46:09,SafeDrivers,Patrick Herbert,Washington,18.00
+281599,,2019-01-07 17:47:03,SafeDrivers,Blake Giles,Colorado,7.20
+281607,,2019-01-07 18:20:05,SafeDrivers,Paul Moore,Arizona,13.00
+281628,,2019-01-07 19:20:20,SafeDrivers,Valecia Hill,California,7.00
+281629,,2019-01-07 19:24:17,SafeDrivers,Tami Wheatley,Arizona,13.00
+281632,,2019-01-07 19:30:43,SafeDrivers,Leonel Campos Santillan,California,7.00
+281635,,2019-01-07 19:37:00,SafeDrivers,NGOCQUY VAN,California,7.00
+281639,,2019-01-07 19:50:21,SafeDrivers,Joseph Patterson,Florida,13.02
+281641,,2019-01-07 19:58:21,SafeDrivers,Leonel Santillan,Virginia,13.00
+281656,,2019-01-07 20:25:51,SafeDrivers,Jane Scott,North Carolina,15.00
+281657,,2019-01-07 20:26:42,SafeDrivers,Sarah Hubert,California,7.00
+281668,,2019-01-07 20:50:37,SafeDrivers,COLLEEN PAPPAS,California,7.00
+281670,,2019-01-07 20:53:05,SafeDrivers,Johnnie Stone,Alabama,15.00
+281671,,2019-01-07 20:55:55,SafeDrivers,Anthony DeRosa,South Carolina,12.25
+281680,,2019-01-07 21:23:36,SafeDrivers,Rickie Timberlake,Tennessee,12.50
+281686,,2019-01-07 22:03:36,SafeDrivers,Barbara Bowser,Arizona,13.00
+281688,,2019-01-07 22:12:43,SafeDrivers,Tanner Bayer,Idaho,14.00
+281689,,2019-01-07 22:13:28,SafeDrivers,Anthony Goveia,California,7.00
+281690,,2019-01-07 22:14:25,SafeDrivers,Alison Horgan,North Carolina,15.00
+281691,,2019-01-07 22:22:45,SafeDrivers,Tanner Boyer,Idaho,14.00
+281692,,2019-01-07 22:24:31,SafeDrivers,Arturo Morales,Illinois,17.00
+281695,,2019-01-07 22:54:15,SafeDrivers,Michael Kelly,California,7.00
+281696,,2019-01-07 22:55:56,SafeDrivers,Tanner Boyer,Idaho,14.00
+281697,,2019-01-07 22:57:18,SafeDrivers,Erick Garcia,California,7.00
+281698,,2019-01-07 23:04:15,SafeDrivers,Suresh Gaddam,Illinois,17.00
+281701,,2019-01-08 00:28:48,SafeDrivers,Ernest Ruelas,California,7.00
+281702,,2019-01-08 00:30:20,SafeDrivers,Chaddrick Dukes,Florida,13.02
+281703,,2019-01-08 00:31:49,SafeDrivers,Michael Paul,Georgia,11.00
+281704,,2019-01-08 01:37:16,SafeDrivers,Leonard Brodowsky,Arizona,13.00
+281705,,2019-01-08 01:41:30,SafeDrivers,Austin White,Colorado,7.20
+281706,,2019-01-08 02:44:45,SafeDrivers,Lyn DeSantis,California,7.00
+281710,,2019-01-08 03:33:12,SafeDrivers,Zachary Arehart,West Virginia,17.50
+281718,,2019-01-08 03:56:27,SafeDrivers,Thoomas Coniglione,New York,12.00
+281720,,2019-01-08 05:04:44,SafeDrivers,Dannette Carroll,Michigan,16.00
+281721,,2019-01-08 12:49:58,SafeDrivers,Romero Harris,California,7.00
+281722,,2019-01-08 12:51:58,SafeDrivers,Colin Lyons,New York,12.00
+281723,,2019-01-08 12:54:40,SafeDrivers,Brenda Bellavia,Arizona,13.00
+281724,,2019-01-08 13:04:43,SafeDrivers,Jose Martinez,New York,12.00
+281725,,2019-01-08 13:08:16,SafeDrivers,Johnny Brooks,Georgia,11.00
+281731,,2019-01-08 14:05:20,SafeDrivers,Dannette Carroll,Michigan,16.00
+281745,,2019-01-08 14:56:13,SafeDrivers,Angela Lyons,North Carolina,15.00
+281747,,2019-01-08 14:57:27,SafeDrivers,Nicholas Mashburn,Georgia,11.00
+281748,,2019-01-08 14:58:32,SafeDrivers,Simon Ampadu,Ohio,10.00
+281750,,2019-01-08 15:06:35,SafeDrivers,Thomas Mascal,Illinois,17.00
+281752,,2019-01-08 15:12:06,SafeDrivers,Jason Vaas,Georgia,11.00
+281754,,2019-01-08 15:19:49,SafeDrivers,George Cruz,Illinois,17.00
+281837,,2019-01-08 20:08:55,DeggellerAttractionsInc,Keith Knoud,Florida,14.02
+281855,,2019-01-08 21:00:13,MaytagAircraftCorporation,Kyle Burke,Washington,18.00
+281875,,2019-01-08 22:20:17,ParkTransportation,Jae Yu,Illinois,17.00
+281931,,2019-01-09 14:13:23,OnTargetStaffingCamden,MABELIN ROSA,Pennsylvania,17.00
+281963,,2019-01-09 16:36:22,CramerSecurityInvestigationsInc,AMBER SIZEMORE,West Virginia,17.50
+281965,,2019-01-09 16:45:26,CramerSecurityInvestigationsInc,NATHAN STAGGS,West Virginia,17.50
+281969,,2019-01-09 17:02:52,CramerSecurityInvestigationsInc,ROSENEA EVANS,West Virginia,17.50
+281971,,2019-01-09 17:04:25,CramerSecurityInvestigationsInc,DAVID ELKINS,West Virginia,17.50
+281974,,2019-01-09 17:07:39,CramerSecurityInvestigationsInc,CAMERAN LESTER,Virginia,13.00
+281976,,2019-01-09 17:12:59,CramerSecurityInvestigationsInc,JOYCE DOTSON,Virginia,13.00
+282002,,2019-01-09 18:52:29,CramerSecurityInvestigationsInc,CHRISTINE STALEY,West Virginia,17.50
+282004,,2019-01-09 19:02:04,DeatonTruckandTireService,Roger Williams,Georgia,11.00
+282005,,2019-01-09 19:03:05,DeatonTruckandTireService,Gary Register,Georgia,11.00
+282006,,2019-01-09 19:03:48,DeatonTruckandTireService,Roger Kyker,Georgia,11.00
+282007,,2019-01-09 19:04:32,DeatonTruckandTireService,Richard Carden,Georgia,11.00
+282008,,2019-01-09 19:06:06,DeatonTruckandTireService,Larry Hestely,Georgia,11.00
+282009,,2019-01-09 19:07:02,DeatonTruckandTireService,Juan Guzman,Georgia,11.00
+282010,,2019-01-09 19:07:41,DeatonTruckandTireService,Johnathan Deaton,Georgia,11.00
+282012,,2019-01-09 19:08:26,DeatonTruckandTireService,Robert Toombs,North Carolina,15.00
+282015,,2019-01-09 19:10:57,DeatonTruckandTireService,Barry Bennett,Georgia,11.00
+282017,,2019-01-09 19:12:11,DeatonTruckandTireService,Chadric Pennington,Georgia,11.00
+282019,,2019-01-09 19:12:54,DeatonTruckandTireService,Dustin Kyker,Georgia,11.00
+282020,,2019-01-09 19:13:36,DeatonTruckandTireService,Russell Arnold,Georgia,11.00
+282023,,2019-01-09 19:17:38,DeatonTruckandTireService,Timothy Holcomb,North Carolina,15.00
+282024,,2019-01-09 19:18:43,DeatonTruckandTireService,Matthew Brown,North Carolina,15.00
+282027,,2019-01-09 19:23:34,DeatonTruckandTireService,Nicholas McLemore,Georgia,11.00
+282030,,2019-01-09 19:24:13,DeatonTruckandTireService,Joseph Caldwell,Georgia,11.00
+282031,,2019-01-09 19:24:58,DeatonTruckandTireService,Jerry Cook,Georgia,11.00
+282032,,2019-01-09 19:25:38,DeatonTruckandTireService,Joseph Brunson,Georgia,11.00
+282033,,2019-01-09 19:26:17,DeatonTruckandTireService,Christopher Greene,North Carolina,15.00
+282034,,2019-01-09 19:27:35,DeatonTruckandTireService,Stephen Young,Georgia,11.00
+282035,,2019-01-09 19:28:17,DeatonTruckandTireService,Daniel Starliper,Georgia,11.00
+282036,,2019-01-09 19:28:53,DeatonTruckandTireService,Houston Kerr,Georgia,11.00
+282038,,2019-01-09 19:29:53,DeatonTruckandTireService,Gerald Browning,Indiana,12.50
+282039,,2019-01-09 19:30:54,DeatonTruckandTireService,James Hammond,Georgia,11.00
+282040,,2019-01-09 19:31:42,DeatonTruckandTireService,Calip Bowser,North Carolina,15.00
+282052,,2019-01-09 20:22:56,CramerSecurityInvestigationsInc,JOSHUA BERRY,West Virginia,17.50
+282150,,2019-01-10 15:00:14,CramerSecurityInvestigationsInc,KEVIN MANNS,North Carolina,15.00
+282159,,2019-01-10 16:10:37,ParkTransportation,Jamiyan Munkhgerel,Illinois,17.00
+282217,,2019-01-10 21:54:12,ParkTransportation,Omar Cruz,Illinois,17.00
+282218,,2019-01-10 21:54:56,ParkTransportation,Leonardo Sanchez Alvarez,Illinois,17.00
+282283,,2019-01-11 16:37:46,ParkTransportation,Altansuhk Tsenen,Illinois,17.00
+282321,,2019-01-11 20:36:16,STMagicEnterprisesInc,Douglas Herrin,Georgia,11.00
+282322,,2019-01-11 20:42:49,STMagicEnterprisesInc,Michael Davies,Florida,13.02
+282323,,2019-01-11 20:44:13,STMagicEnterprisesInc,Linda Deal,Florida,13.02
+282324,,2019-01-11 20:48:44,STMagicEnterprisesInc,Frederick Fowler,Florida,13.02
+282325,,2019-01-11 20:50:56,STMagicEnterprisesInc,Edward Morten,Florida,13.02
+282326,,2019-01-11 20:54:47,STMagicEnterprisesInc,Victoria Ottman,Florida,13.02
+282332,,2019-01-11 21:15:10,ParkTransportation,Mauricio Munoz,Illinois,17.00
+282340,,2019-01-11 21:30:08,CramerSecurityInvestigationsInc,THOMAS PAYNTER,Michigan,16.00
+282363,,2019-01-12 18:17:00,BlueMoonPizzaSandySprings,Fazail Azizan,Georgia,11.00
+282467,,2019-01-14 16:03:43,BlazerElectric,LEONARDO DOMINGUEZ,Colorado,7.20
+282471,,2019-01-14 16:31:10,ParkTransportation,Ricardo Correa,Illinois,17.00
+282520,,2019-01-14 20:09:55,BlueMoonPizzaSandySprings,Chase Powell,Georgia,11.00
+282533,,2019-01-14 21:29:34,LVWElectronics,Shane Spaniol,Texas,11.50
+282567,,2019-01-15 15:20:26,KrisWayTruckLeasingInc,Matthew Alley,New Hampshire,18.00
+282643,,2019-01-15 18:58:13,NewRichmondSchoolDistrict,Maryjo Peirson,Wisconsin,12.00
+282658,,2019-01-15 19:53:12,OnTargetStaffingNewark,JOSHUA PENA,New Jersey,17.00
+282829,,2019-01-16 13:39:24,SoutheasternNationalease,Daryle Lemonds,North Carolina,15.00
+282830,,2019-01-16 13:42:14,SoutheasternNationalease,Kenneth byars,North Carolina,15.00
+282858,,2019-01-16 16:17:20,SoutheasternNationalease,Sharon Lipscomb,North Carolina,15.00
+282860,,2019-01-16 16:18:03,SoutheasternNationalease,Tony Hunter,North Carolina,15.00
+282950,,2019-01-16 21:48:25,BlueMoonPizzaBuckhead,CHARLES CALDWELL,Georgia,11.00
+282952,,2019-01-16 22:17:00,BlueMoonPizzaNewSmyrna,Gabrielle cohen,Georgia,11.00
+283053,,2019-01-17 18:42:25,ParkTransportation,Gustavo Reyes Villasenor,Illinois,17.00
+283078,,2019-01-17 20:14:18,NewRichmondSchoolDistrict,Michael Ballard,Wisconsin,12.00
+283096,,2019-01-17 21:35:29,BayShoreHiltonHead,Mallory Boyles,South Carolina,12.25
+283101,,2019-01-17 21:52:27,CramerSecurityInvestigationsInc,RICHARD EVANS,West Virginia,17.50
+283103,,2019-01-17 22:07:39,CramerSecurityInvestigationsInc,Dustin DOOLEY,West Virginia,17.50
+283105,,2019-01-17 22:08:49,CramerSecurityInvestigationsInc,CAITLIN SPARKS,Virginia,13.00
+283107,,2019-01-17 22:11:51,CramerSecurityInvestigationsInc,COLBY COMPTON,Virginia,13.00
+283109,,2019-01-17 22:16:07,CramerSecurityInvestigationsInc,NATHAN HASHMAN,Ohio,10.00
+283111,,2019-01-17 22:44:59,CramerSecurityInvestigationsInc,DONALD HUSK,West Virginia,17.50
+283114,,2019-01-17 22:46:11,CramerSecurityInvestigationsInc,JOHN ROOP,West Virginia,17.50
+283187,,2019-01-18 14:50:42,NewRichmondSchoolDistrict,Jeffrey Swanson,Wisconsin,12.00
+283192,,2019-01-18 15:00:25,NewRichmondSchoolDistrict,Heidi Johnson,Wisconsin,12.00
+283194,,2019-01-18 15:01:11,NewRichmondSchoolDistrict,Carey Reetz,Wisconsin,12.00
+283200,,2019-01-18 15:08:36,NewRichmondSchoolDistrict,Kari Johnson,Wisconsin,12.00
+283207,,2019-01-18 16:03:02,CramerSecurityInvestigationsInc,Moses Sumpter,Virginia,13.00
+283248,,2019-01-18 19:43:23,BlueMoonPizzaFortMyers,Isaac Cabezas Jr,Florida,13.02
+283255,,2019-01-18 20:13:54,NewRichmondSchoolDistrict,Terri Schmit,Wisconsin,12.00
+283271,,2019-01-18 22:24:03,BlueMoonPizzaNewSmyrna,Ayanna Gardner,Georgia,11.00
+283283,,2019-01-19 19:00:02,BlazerElectric,JAMES TROOSGSTAD,Colorado,7.20
+283503,,2019-01-22 15:20:32,NewRichmondSchoolDistrict,Jennifer Ballard,Wisconsin,12.00
+283507,,2019-01-22 15:27:35,NewRichmondSchoolDistrict,Michael Richter,Wisconsin,12.00
+283513,,2019-01-22 15:37:26,NewRichmondSchoolDistrict,Cherie Lubow,Wisconsin,12.00
+283516,,2019-01-22 15:38:24,NewRichmondSchoolDistrict,Deena Zauft,Wisconsin,12.00
+283519,,2019-01-22 15:43:06,NewRichmondSchoolDistrict,Sandra Bonney,Wisconsin,12.00
+283521,,2019-01-22 15:43:56,NewRichmondSchoolDistrict,John Pundsack,Minnesota,10.00
+283524,,2019-01-22 15:44:59,NewRichmondSchoolDistrict,Julian Perez Figueroa,Wisconsin,12.00
+283531,,2019-01-22 15:53:32,NewRichmondSchoolDistrict,Lisa Vergin,Wisconsin,12.00
+283533,,2019-01-22 15:54:17,NewRichmondSchoolDistrict,Jill Steel,Wisconsin,12.00
+283543,,2019-01-22 16:20:36,NewRichmondSchoolDistrict,Eric Keyes,Wisconsin,12.00
+283607,,2019-01-22 19:27:09,BlazerElectric,Jeffrey Becker,Colorado,7.20
+283609,,2019-01-22 19:32:54,TriangleDistribution,EDSON SOTO,District of Columbia,18.00
+283683,,2019-01-23 15:13:57,ParkTransportation,Colin Scott,Illinois,17.00
+283691,,2019-01-23 15:47:58,ParkTransportation,Nathaniel Jakes Jr.,Illinois,17.00
+283695,,2019-01-23 16:05:06,ParkTransportation,Angel Vera,Illinois,17.00
+283769,,2019-01-23 21:04:18,CramerSecurityInvestigationsInc,DANNY MARCUM,West Virginia,17.50
+283774,,2019-01-23 21:16:58,CramerSecurityInvestigationsInc,DAVID PALMER,West Virginia,17.50
+283777,,2019-01-23 21:20:16,CramerSecurityInvestigationsInc,DILLON RATTLER,West Virginia,17.50
+283781,,2019-01-23 21:30:00,CramerSecurityInvestigationsInc,ALASKA PARSONS,West Virginia,17.50
+283824,,2019-01-24 14:37:32,NewRichmondSchoolDistrict,Kenneth Kerr,Wisconsin,12.00
+283834,,2019-01-24 15:18:54,ParkTransportation,Rupinder Singh,Illinois,17.00
+283854,,2019-01-24 16:25:23,SoutheasternNationalease,Odessa Jones,Ohio,10.00
+283917,,2019-01-24 20:06:58,CramerSecurityInvestigationsInc,DAVID BLAIR,West Virginia,17.50
+283919,,2019-01-24 20:08:51,CramerSecurityInvestigationsInc,NOAH SPENCER,West Virginia,17.50
+283921,,2019-01-24 20:09:51,CramerSecurityInvestigationsInc,ALEX SHEETS,West Virginia,17.50
+283923,,2019-01-24 20:10:50,CramerSecurityInvestigationsInc,AIMEE CLINGENPEEL,West Virginia,17.50
+283978,,2019-01-25 16:16:49,ParkTransportation,Mariusz Siuta,Illinois,17.00
+283979,,2019-01-25 16:18:06,ParkTransportation,Jae Yu,Illinois,17.00
+284025,,2019-01-25 21:06:59,CramerSecurityInvestigationsInc,DONALD HUSK,West Virginia,17.50
+284054,,2019-01-26 19:52:24,ThomasCarnivalInc,Barry Wilson,Montana,13.37
+284055,,2019-01-26 19:55:55,ThomasCarnivalInc,Steven Loney,Montana,13.37
+284062,,2019-01-26 20:48:35,ThomasCarnivalInc,Gary Maxwell,Montana,13.37
+284064,,2019-01-26 20:52:30,ThomasCarnivalInc,Truman Chriswell,Montana,13.37
+284066,,2019-01-26 20:56:13,ThomasCarnivalInc,Thomas Bessette,Montana,13.37
+284067,,2019-01-26 21:03:52,ThomasCarnivalInc,Everett Maxwell,Montana,13.37
+284068,,2019-01-26 21:10:23,ThomasCarnivalInc,Boyd Ward,Nebraska,9.00
+284069,,2019-01-26 21:16:07,ThomasCarnivalInc,Heather Pederson,Texas,12.50
+284070,,2019-01-26 21:23:19,ThomasCarnivalInc,Henry Stewart,Iowa,14.50
+284071,,2019-01-26 21:26:57,ThomasCarnivalInc,Shelly Wood,Iowa,14.50
+284072,,2019-01-26 21:31:52,ThomasCarnivalInc,Robert Zoucha,Nebraska,9.00
+284073,,2019-01-26 21:36:53,ThomasCarnivalInc,Richard Stowe,Iowa,14.50
+284075,,2019-01-26 21:54:59,ThomasCarnivalInc,Thomas Waugh,Iowa,14.50
+284076,,2019-01-26 22:07:28,ThomasCarnivalInc,Lawrence Phillips,Iowa,14.50
+284077,,2019-01-26 22:18:25,ThomasCarnivalInc,William Messenbrink,Iowa,14.50
+284078,,2019-01-26 22:23:20,ThomasCarnivalInc,Frank Novotny,Nebraska,9.00
+284079,,2019-01-26 22:44:29,ThomasCarnivalInc,Michael Boren,Iowa,14.50
+284080,,2019-01-26 22:49:59,ThomasCarnivalInc,Ronald Miles,Nebraska,9.00
+284081,,2019-01-26 22:54:21,ThomasCarnivalInc,Roger Frieze,Iowa,14.50
+284082,,2019-01-26 23:00:57,ThomasCarnivalInc,Charles Chambers,Iowa,14.50
+284083,,2019-01-26 23:04:57,ThomasCarnivalInc,Allen Naprstek,Nebraska,9.00
+284084,,2019-01-26 23:08:40,ThomasCarnivalInc,Steven Pegg,Texas,12.50
+284085,,2019-01-26 23:20:52,ThomasCarnivalInc,Ross Payne,Texas,12.50
+284086,,2019-01-26 23:25:03,ThomasCarnivalInc,John Hanschen,Texas,12.50
+284087,,2019-01-26 23:29:39,ThomasCarnivalInc,Jeremy Dial,Missouri,11.80
+284088,,2019-01-26 23:33:46,ThomasCarnivalInc,Barton Finlayson,Texas,12.50
+284089,,2019-01-26 23:38:41,ThomasCarnivalInc,Ethan Huedepohl,Montana,13.37
+284090,,2019-01-26 23:43:24,ThomasCarnivalInc,Doug Nichols,Montana,13.37
+284091,,2019-01-26 23:46:28,ThomasCarnivalInc,Richard Snider,Montana,13.37
+284092,,2019-01-26 23:48:48,ThomasCarnivalInc,Henry Seeman,Montana,13.37
+284093,,2019-01-26 23:58:35,ThomasCarnivalInc,Cody Britsch,Montana,13.37
+284094,,2019-01-27 00:02:31,ThomasCarnivalInc,Bruce Morgan,Montana,13.37
+284095,,2019-01-27 00:05:37,ThomasCarnivalInc,Stephen Barton,Montana,13.37
+284096,,2019-01-27 00:08:30,ThomasCarnivalInc,Joshua Aho,Montana,13.37
+284166,,2019-01-28 17:19:13,CramerSecurityInvestigationsInc,LARRY II GLASSBURN,West Virginia,17.50
+284212,,2019-01-28 20:31:04,TriangleDistribution,ESTIVEN FLORES,New York,12.00
+284285,,2019-01-29 18:29:03,NewRichmondSchoolDistrict,Terrence Neumann,Wisconsin,12.00
+284324,,2019-01-29 22:17:53,ParkTransportation,Dimitre Sokolov,Illinois,17.00
+284364,,2019-01-30 16:16:55,CramerSecurityInvestigationsInc,CURTIS JOHNSON,West Virginia,17.50
+284372,,2019-01-30 16:25:16,CramerSecurityInvestigationsInc,Amanda Callahan,West Virginia,17.50
+284449,,2019-01-31 01:34:41,SuperiorPools,Jonathon Krawczyk,Florida,13.02
+284472,,2019-01-31 16:21:34,MaytagAircraftCorporation,GLENN GIVENS,South Carolina,12.25
+284518,,2019-01-31 20:06:42,AlpineAmusementCo,Allen Evans,Illinois,17.00
+284667,,2019-02-04 13:14:02,KrisWayTruckLeasingInc,Vincent Bell,New Hampshire,18.00
+284706,,2019-02-04 16:11:23,KrisWayTruckLeasingInc,Warren Moniz,New Hampshire,18.00
+284744,,2019-02-04 18:32:30,NewRichmondSchoolDistrict,Lynsey Gausman,Wisconsin,12.00
+284797,,2019-02-04 20:35:26,SNSWorldwide,jose salazar jr,New Jersey,17.00
+284820,,2019-02-04 22:16:04,CramerSecurityInvestigationsInc,VIOLA LEE,West Virginia,17.50
+284822,,2019-02-04 22:19:21,CramerSecurityInvestigationsInc,BRUCE BROWN,West Virginia,17.50
+284824,,2019-02-04 22:44:03,CramerSecurityInvestigationsInc,JACOB FISHER,West Virginia,17.50
+284827,,2019-02-04 23:11:35,CramerSecurityInvestigationsInc,Dennis Akers,West Virginia,17.50
+284829,,2019-02-04 23:17:11,CramerSecurityInvestigationsInc,DEREK LEE,West Virginia,17.50
+284848,,2019-02-05 14:13:18,NewRichmondSchoolDistrict,Zachary Kier,Wisconsin,12.00
+285051,,2019-02-06 17:58:20,LVWElectronics,Brian Trhlin,Alabama,15.00
+285211,,2019-02-07 17:02:46,BlazerElectric,Cedric Smith,Nevada,13.00
+285325,,2019-02-08 13:20:17,CramerSecurityInvestigationsInc,JOSHUA PROCTOR,West Virginia,17.50
+285342,,2019-02-08 15:46:15,ParkTransportation,Luis Ibarra,Illinois,17.00
+285438,,2019-02-08 19:14:08,BlueMoonPizzaFortMyers,Todd Stern,Florida,13.02
+285667,,2019-02-11 19:15:54,ParkTransportation,Fred Halcrombe,New Mexico,11.50
+285795,,2019-02-12 17:57:20,ParkTransportation,Willie Glasper,Illinois,17.00
+285804,,2019-02-12 18:46:23,BlueMoonPizzaSandySprings,William Smith,Georgia,11.00
+285818,,2019-02-12 19:23:37,NewRichmondSchoolDistrict,Nicholas Hall,Wisconsin,12.00
+285878,,2019-02-13 14:35:31,SchoolDistrictofBloomer,ARYN SATHER,Wisconsin,12.00
+285893,,2019-02-13 15:55:43,ParkTransportation,Domingo Perez,Illinois,17.00
+285895,,2019-02-13 15:56:28,ParkTransportation,Mariano Rojas Espitia,Illinois,17.00
+285896,,2019-02-13 15:57:07,ParkTransportation,Pawl Palus,Illinois,17.00
+285897,,2019-02-13 15:58:31,ParkTransportation,Romel Jovel,Illinois,17.00
+285902,,2019-02-13 16:21:30,NewRichmondSchoolDistrict,Lusnnette Andujar-Rosado,Wisconsin,12.00
+285908,,2019-02-13 16:54:59,TriangleDistribution,SANTOS GONZALEZ,New Jersey,17.00
+285947,,2019-02-13 19:29:20,ShellLakeSchoolDistrict,CODY PEARSON,Wisconsin,12.00
+286019,,2019-02-14 15:23:51,ParkTransportation,Adam Smiarowski,Illinois,17.00
+286021,,2019-02-14 15:36:59,ParkTransportation,Ruben Sanchez,Indiana,12.50
+286133,,2019-02-15 14:14:49,ParkTransportation,Arturo Murillo,Illinois,17.00
+286179,,2019-02-15 17:49:36,LocustLakeVillagePOA,Christine Cohen,Pennsylvania,17.00
+286194,,2019-02-15 18:41:21,CramerSecurityInvestigationsInc,Nicolas LOVING,West Virginia,17.50
+286196,,2019-02-15 18:42:23,CramerSecurityInvestigationsInc,BRIANNA ARMSTONG,West Virginia,17.50
+286198,,2019-02-15 18:44:26,CramerSecurityInvestigationsInc,ZETTA YOUNG,West Virginia,17.50
+286200,,2019-02-15 18:45:38,CramerSecurityInvestigationsInc,WARD SCARBERRY,West Virginia,17.50
+286220,,2019-02-15 19:26:05,CramerSecurityInvestigationsInc,JAMES AGNOR,West Virginia,17.50
+286222,,2019-02-15 19:29:00,CramerSecurityInvestigationsInc,SONNY STACENER,West Virginia,17.50
+286225,,2019-02-15 19:30:37,CramerSecurityInvestigationsInc,CALVIN JR GROSS,West Virginia,17.50
+286228,,2019-02-15 19:32:09,CramerSecurityInvestigationsInc,HUNTER BRAGG,West Virginia,17.50
+286240,,2019-02-15 20:32:40,ParkTransportation,Walter Hall,Wisconsin,12.00
+286245,,2019-02-15 21:08:32,NorthwestDrivetrain,MARCUS BRYANT,Texas,11.50
+286260,,2019-02-15 22:18:15,CramerSecurityInvestigationsInc,HEATHER FORD,Ohio,10.00
+286263,,2019-02-15 22:20:13,CramerSecurityInvestigationsInc,SHANE RASNICK,Virginia,13.00
+286265,,2019-02-15 22:21:35,CramerSecurityInvestigationsInc,AMBER MOSLEY,Virginia,13.00
+286268,,2019-02-16 18:46:33,BlueMoonPizzaBuckhead,Mercy Iyere,Georgia,11.00
+286269,,2019-02-16 19:43:33,BlueMoonPizzaSandySprings,Caleb Brening,Florida,13.02
+286272,,2019-02-17 01:58:50,BlueMoonPizzaBuckhead,Robert Kelley,Georgia,11.00
+286621,,2019-02-19 21:38:14,NewRichmondSchoolDistrict,Brian Anderson,Wisconsin,12.00
+286623,,2019-02-19 21:49:25,NorthwestDrivetrain,jason walden,Kentucky,10.50
+286625,,2019-02-19 21:53:26,NorthwestDrivetrain,justin phillips,Texas,11.50
+286773,,2019-02-21 15:19:08,LVWElectronics,Devan Wright,Washington,18.00
+286838,,2019-02-21 18:43:29,SoutheasternNationalease,Meghan Fletcher,South Carolina,12.25
+286848,,2019-02-21 19:32:17,BlueMoonPizzaBuckhead,Joshua branch,Georgia,11.00
+286851,,2019-02-21 19:36:43,BlueMoonPizzaBuckhead,Naomi Prunty,Georgia,11.00
+286853,,2019-02-21 19:44:45,BlueMoonPizzaBuckhead,Sage Kolodziejski,Georgia,11.00
+286854,,2019-02-21 19:54:44,BlueMoonPizzaBuckhead,Mark Nadeau,Georgia,11.00
+286856,,2019-02-21 20:04:48,BlueMoonPizzaBuckhead,Christopher Collins,Georgia,11.00
+286857,,2019-02-21 20:15:17,BlueMoonPizzaBuckhead,Maximilian Culbreth,Georgia,11.00
+286878,,2019-02-21 21:18:53,BlueMoonPizzaBuckhead,Mitchell France,Georgia,11.00
+286879,,2019-02-21 21:20:07,BlueMoonPizzaBuckhead,Megan Leatherman,Georgia,11.00
+286885,,2019-02-21 22:13:45,BlueMoonPizzaBuckhead,Nicholas Edmondson,Georgia,11.00
+286906,,2019-02-22 15:24:27,RiverFallsSchoolDistrict,Jaycie Gerding,South Dakota,10.00
+286919,,2019-02-22 16:05:06,CramerSecurityInvestigationsInc,SHAWN STANLEY,West Virginia,17.50
+286921,,2019-02-22 16:18:53,CramerSecurityInvestigationsInc,VERNON BAILEY,West Virginia,17.50
+286924,,2019-02-22 16:28:17,CramerSecurityInvestigationsInc,ROBERT WILLIAMS,West Virginia,17.50
+286926,,2019-02-22 16:34:12,CramerSecurityInvestigationsInc,RANDY JR BROWN,West Virginia,17.50
+286930,,2019-02-22 16:37:09,NorthwestDrivetrain,jacob benavides-landry,Texas,11.50
+286933,,2019-02-22 16:40:30,CramerSecurityInvestigationsInc,MICHAEL SIMMS,West Virginia,17.50
+286938,,2019-02-22 16:49:05,CramerSecurityInvestigationsInc,ROGER OILER,West Virginia,17.50
+286946,,2019-02-22 17:04:37,CramerSecurityInvestigationsInc,Thomas Rogers,West Virginia,17.50
+286950,,2019-02-22 17:10:09,CramerSecurityInvestigationsInc,Sedrick Rider,West Virginia,17.50
+286952,,2019-02-22 17:12:31,CramerSecurityInvestigationsInc,RICHARD BOSS,West Virginia,17.50
+286955,,2019-02-22 17:30:40,CramerSecurityInvestigationsInc,CLAYTON SARGENT,West Virginia,17.50
+286957,,2019-02-22 17:43:13,BlueMoonPizzaNewSmyrna,Daryl Germany,Georgia,11.00
+286965,,2019-02-22 17:57:06,CramerSecurityInvestigationsInc,DAVID CRAWFORD,West Virginia,17.50
+286967,,2019-02-22 18:17:21,ParkTransportation,Jessie Ortiz,Illinois,17.00
+287004,,2019-02-22 20:40:24,NorthwestDrivetrain,erick carrillo,Texas,11.50
+287013,,2019-02-22 21:09:07,BlueMoonPizzaSandySprings,Glenn Harris,Georgia,11.00
+287025,,2019-02-22 22:17:18,BlueMoonPizzaSandySprings,Jonas Jackson,Georgia,11.00
+287026,,2019-02-22 22:17:52,BlueMoonPizzaSandySprings,Alan McQuillan,Georgia,11.00
+287044,,2019-02-23 22:34:56,BlueMoonPizzaSandySprings,Jeffrey Byers,Georgia,11.00
+287045,,2019-02-24 04:20:34,BlueMoonPizzaSandySprings,Jonas Jackson,Georgia,11.00
+287049,,2019-02-25 01:44:38,CramerSecurityInvestigationsInc,Anthony Cano,West Virginia,17.50
+287051,,2019-02-25 01:48:08,CramerSecurityInvestigationsInc,LARRY ESKEW,West Virginia,17.50
+287053,,2019-02-25 02:02:27,CramerSecurityInvestigationsInc,Seth Hager,West Virginia,17.50
+287055,,2019-02-25 02:05:48,CramerSecurityInvestigationsInc,Marion Jr Hamons,West Virginia,17.50
+287057,,2019-02-25 02:11:55,CramerSecurityInvestigationsInc,dennis sands,West Virginia,17.50
+287059,,2019-02-25 02:23:30,CramerSecurityInvestigationsInc,robert sr watkins,West Virginia,17.50
+287061,,2019-02-25 02:26:29,CramerSecurityInvestigationsInc,andrew dillow,West Virginia,17.50
+287063,,2019-02-25 02:36:31,CramerSecurityInvestigationsInc,Sherri White,West Virginia,17.50
+287065,,2019-02-25 02:39:23,CramerSecurityInvestigationsInc,Earl Bailes,West Virginia,17.50
+287067,,2019-02-25 02:45:30,CramerSecurityInvestigationsInc,Samuel Muldrew,West Virginia,17.50
+287069,,2019-02-25 02:53:00,CramerSecurityInvestigationsInc,Sherry Light,West Virginia,17.50
+287071,,2019-02-25 02:58:04,CramerSecurityInvestigationsInc,Aaron Frankenfield,West Virginia,17.50
+287073,,2019-02-25 03:05:08,CramerSecurityInvestigationsInc,Reather Williamson,West Virginia,17.50
+287075,,2019-02-25 03:12:07,CramerSecurityInvestigationsInc,Lindsey Rife,Virginia,13.00
+287077,,2019-02-25 03:49:14,CramerSecurityInvestigationsInc,KEVIN Hudson,West Virginia,17.50
+287079,,2019-02-25 03:54:20,CramerSecurityInvestigationsInc,Timothy Newsom,West Virginia,17.50
+287081,,2019-02-25 04:08:15,CramerSecurityInvestigationsInc,Bryan Cook,West Virginia,17.50
+287083,,2019-02-25 04:10:11,CramerSecurityInvestigationsInc,mariah bowman,North Carolina,15.00
+287085,,2019-02-25 04:21:31,CramerSecurityInvestigationsInc,mykol bryant,West Virginia,17.50
+287088,,2019-02-25 04:45:33,CramerSecurityInvestigationsInc,Johnny Mullins,West Virginia,17.50
+287090,,2019-02-25 04:53:45,CramerSecurityInvestigationsInc,Matthew Scott,West Virginia,17.50
+287092,,2019-02-25 06:06:06,CramerSecurityInvestigationsInc,Evan Redman,West Virginia,17.50
+287094,,2019-02-25 06:07:14,CramerSecurityInvestigationsInc,Kenneth Jr Green,West Virginia,17.50
+287096,,2019-02-25 06:16:15,CramerSecurityInvestigationsInc,vicki quigley,West Virginia,17.50
+287098,,2019-02-25 06:18:28,CramerSecurityInvestigationsInc,MicHAEL WELLS,West Virginia,17.50
+287100,,2019-02-25 06:26:39,CramerSecurityInvestigationsInc,daniel williams,West Virginia,17.50
+287102,,2019-02-25 06:29:17,CramerSecurityInvestigationsInc,leasonna davis,West Virginia,17.50
+287104,,2019-02-25 06:36:47,CramerSecurityInvestigationsInc,Willard Taylor,West Virginia,17.50
+287106,,2019-02-25 06:49:53,CramerSecurityInvestigationsInc,Daniel Dingess,West Virginia,17.50
+287108,,2019-02-25 06:55:49,CramerSecurityInvestigationsInc,Ronetta jessop,West Virginia,17.50
+287110,,2019-02-25 07:01:25,CramerSecurityInvestigationsInc,Lori Treadway,West Virginia,17.50
+287186,,2019-02-25 18:41:50,NorthwestDrivetrain,caryn raymond,Texas,11.50
+287194,,2019-02-25 19:03:38,TriangleDistribution,ANYELL DISLA,Florida,13.02
+287215,,2019-02-25 20:12:05,NorthwestDrivetrain,daily melanie,Texas,11.50
+287273,,2019-02-26 15:39:30,CramerSecurityInvestigationsInc,DAVID BLACK,West Virginia,17.50
+287275,,2019-02-26 15:42:27,CramerSecurityInvestigationsInc,CHARLES MILAM,Pennsylvania,17.00
+287277,,2019-02-26 15:45:39,CramerSecurityInvestigationsInc,RYAN ADKINS,West Virginia,17.50
+287279,,2019-02-26 15:47:09,CramerSecurityInvestigationsInc,LYLE CRADDOCK,West Virginia,17.50
+287281,,2019-02-26 15:50:56,CramerSecurityInvestigationsInc,william harper,West Virginia,17.50
+287283,,2019-02-26 15:51:54,CramerSecurityInvestigationsInc,james jr ross,West Virginia,17.50
+287285,,2019-02-26 15:55:25,CramerSecurityInvestigationsInc,kenneth smoot,West Virginia,17.50
+287287,,2019-02-26 15:56:44,CramerSecurityInvestigationsInc,charles taylor,West Virginia,17.50
+287291,,2019-02-26 16:00:06,CramerSecurityInvestigationsInc,earnest jr king,West Virginia,17.50
+287294,,2019-02-26 16:01:42,CramerSecurityInvestigationsInc,Michelle Miller,Ohio,10.00
+287297,,2019-02-26 16:05:24,CramerSecurityInvestigationsInc,kevin anglin,West Virginia,17.50
+287299,,2019-02-26 16:07:39,CramerSecurityInvestigationsInc,justin canterbury,West Virginia,17.50
+287301,,2019-02-26 16:08:57,CramerSecurityInvestigationsInc,ricky williams,West Virginia,17.50
+287306,,2019-02-26 16:20:06,CramerSecurityInvestigationsInc,Ramona Schoolcraft,West Virginia,17.50
+287308,,2019-02-26 16:26:30,CramerSecurityInvestigationsInc,Raymond Bailey,West Virginia,17.50
+287406,,2019-02-26 21:05:48,STMagicEnterprisesInc,Joseph Bizzieri,Arizona,13.00
+287430,,2019-02-26 21:53:18,SchoolDistrictofThorp,John Humphries,Wisconsin,12.00
+287432,,2019-02-26 21:55:25,StickleyFurniture,Keith Brown,North Carolina,15.00
+287433,,2019-02-26 21:56:44,StickleyFurniture,David Plummer,North Carolina,15.00
+287467,,2019-02-27 15:19:40,TriangleDistribution,JOSE NEIRA,New Jersey,17.00
+287791,,2019-02-28 12:03:42,CramerSecurityInvestigationsInc,BRANDON DANIELS,West Virginia,17.50
+287793,,2019-02-28 12:07:59,CramerSecurityInvestigationsInc,Mickey Daniel,West Virginia,17.50
+287796,,2019-02-28 12:21:27,CramerSecurityInvestigationsInc,Gary Belcher,West Virginia,17.50
+287798,,2019-02-28 12:27:49,CramerSecurityInvestigationsInc,LORA BELCHER,West Virginia,17.50
+287800,,2019-02-28 12:34:18,CramerSecurityInvestigationsInc,CLYDE GREED,West Virginia,17.50
+287802,,2019-02-28 12:38:41,CramerSecurityInvestigationsInc,Carl Wills,West Virginia,17.50
+287979,,2019-02-28 14:09:04,SoutheasternNationalease,Austin Fink,North Carolina,15.00
+288113,,2019-02-28 15:05:27,ParkTransportation,Michal Pieniazek,Illinois,17.00
+288194,,2019-02-28 15:30:01,ParkTransportation,Scott Spear,Illinois,17.00
+288296,,2019-02-28 20:58:41,ParkTransportation,Lukas Szraga,Illinois,17.00
+288308,,2019-02-28 22:26:35,BlueMoonPizzaFortMyers,Sebastian Lopez Vallejo,Florida,13.02
+288309,,2019-02-28 22:27:22,BlueMoonPizzaFortMyers,Alexander James,New Jersey,17.00
+288421,,2019-03-01 22:13:53,CramerSecurityInvestigationsInc,ROBERT SPERRY,West Virginia,17.50
+288423,,2019-03-01 22:16:56,CramerSecurityInvestigationsInc,william mccallister,West Virginia,17.50
+288428,,2019-03-01 22:22:15,CramerSecurityInvestigationsInc,ROBERT WILLIAMS,West Virginia,17.50
+288430,,2019-03-01 22:25:00,CramerSecurityInvestigationsInc,Ricky II Kinser,West Virginia,17.50
+288432,,2019-03-01 22:32:14,CramerSecurityInvestigationsInc,KEVIN Hollifield,Kentucky,10.50
+288436,,2019-03-01 22:40:42,CramerSecurityInvestigationsInc,Jeremy Barnett,West Virginia,17.50
+288439,,2019-03-01 22:48:28,CramerSecurityInvestigationsInc,Susan Ricker,West Virginia,17.50
+288537,,2019-03-04 18:31:15,TriangleDistribution,DARWIN ALFARO,New Jersey,17.00
+288540,,2019-03-04 18:36:19,LVWElectronics,Billy Robinson,North Carolina,15.00
+288614,,2019-03-05 15:34:45,TriangleDistribution,JESUS CASTILLO,New Jersey,17.00
+288659,,2019-03-05 18:33:10,VinniesFineFoods,Mathew Stone,Florida,13.02
+288665,,2019-03-05 18:52:24,VinniesFineFoods,Mathew Stone,Florida,13.02
+288702,,2019-03-05 22:18:00,LVWElectronics,Jacob Gerardo,Colorado,7.20
+288940,,2019-03-08 12:17:27,SoutheasternNationalease,Albert Burns,North Carolina,15.00
+288943,,2019-03-08 13:29:09,TriangleDistribution,christian Gambino,New York,12.00
+289037,,2019-03-08 21:22:50,BlueMoonPizzaNewSmyrna,Alissa Haney,Georgia,11.00
+289038,,2019-03-08 21:23:07,BlueMoonPizzaNewSmyrna,Alissa Haney,Georgia,11.00
+289145,,2019-03-11 14:13:35,CramerSecurityInvestigationsInc,Tasia Massey,West Virginia,17.50
+289147,,2019-03-11 14:14:03,CramerSecurityInvestigationsInc,Tasia Massey,West Virginia,17.50
+289183,,2019-03-11 15:58:47,SchoolDistrictofBloomer,LACY KUNSMAN,Wisconsin,12.00
+289184,,2019-03-11 15:59:30,SchoolDistrictofBloomer,LACY KUNSMAN,Wisconsin,12.00
+289185,,2019-03-11 15:59:53,SchoolDistrictofBloomer,LACY KUNSMAN,Wisconsin,12.00
+289202,,2019-03-11 17:06:34,TriangleDistribution,rafael torres,New Jersey,17.00
+289228,,2019-03-11 18:21:16,ParkTransportation,Edgar Zarate,Illinois,17.00
+289282,,2019-03-11 20:30:00,BayShoreHiltonHead,Diane Kastler,South Carolina,12.25
+289303,,2019-03-11 22:55:22,DeatonTruckandTireService,Charles Cummings,Georgia,11.00
+289391,,2019-03-12 19:28:14,ParkTransportation,Javier Rodriguez,Illinois,17.00
+289553,,2019-03-13 21:35:58,ParkTransportation,Jose Xique-Mejia,Illinois,17.00
+289554,,2019-03-13 21:42:03,BlueMoonPizzaNewSmyrna,benjamin waggener,Georgia,11.00
+289555,,2019-03-13 21:43:44,BlueMoonPizzaNewSmyrna,christopher germain,Georgia,11.00
+289556,,2019-03-13 21:46:07,BlueMoonPizzaNewSmyrna,james High,Georgia,11.00
+289558,,2019-03-13 21:52:15,BlueMoonPizzaNewSmyrna,bryan nelson,Georgia,11.00
+289559,,2019-03-13 21:53:55,BlueMoonPizzaNewSmyrna,chase giles,Georgia,11.00
+289599,,2019-03-14 14:27:41,CramerSecurityInvestigationsInc,Terri Stewart,West Virginia,17.50
+289675,,2019-03-14 18:43:06,ParkTransportation,Ronald Levi,Indiana,12.50
+289681,,2019-03-14 19:11:07,RainierAmusements,Kimberlyann Correa,Washington,18.00
+289706,,2019-03-14 19:57:30,CramerSecurityInvestigationsInc,Monica Toney,West Virginia,17.50
+289714,,2019-03-14 20:19:11,CramerSecurityInvestigationsInc,Jonathan Looney,Virginia,13.00
+289719,,2019-03-14 20:26:41,CramerSecurityInvestigationsInc,Phillip Arrington,Virginia,13.00
+289720,,2019-03-14 20:30:03,ParkTransportation,Devon Ellis,Illinois,17.00
+289722,,2019-03-14 20:31:27,ParkTransportation,Izet Bajraktarevic,Illinois,17.00
+289723,,2019-03-14 20:32:30,ParkTransportation,Rafal Szczypta,Texas,11.50
+289724,,2019-03-14 20:33:36,ParkTransportation,Joseph Ziak,Illinois,17.00
+289725,,2019-03-14 20:35:18,ParkTransportation,Christopher Fish,Illinois,17.00
+289735,,2019-03-14 20:57:50,ParkTransportation,John Williams,Nevada,13.00
+289737,,2019-03-14 21:00:00,ParkTransportation,Sam Loyd,Illinois,17.00
+289750,,2019-03-14 21:40:47,BlueMoonPizzaFortMyers,Maria Hernandez,Florida,13.02
+289752,,2019-03-14 21:47:46,BlueMoonPizzaFortMyers,Aliyah Reyes,Florida,13.02
+289754,,2019-03-14 22:07:02,BlueMoonPizzaFortMyers,Tyler Miller,Florida,13.02
+289756,,2019-03-14 22:08:59,BlueMoonPizzaFortMyers,Logan Garlick,Florida,13.02
+289882,,2019-03-16 01:31:26,ThomasCarnivalInc,Floyd Idom,Texas,12.50
+289888,,2019-03-17 02:42:07,RainierAmusements,richard cerkoney,Washington,18.00
+289889,,2019-03-17 02:43:01,RainierAmusements,ALEX RANKIN,Oregon,15.00
+289890,,2019-03-17 02:44:31,RainierAmusements,GARY LINDGREN,Oregon,15.00
+289891,,2019-03-17 02:45:33,RainierAmusements,SEAN LINDEN,Washington,18.00
+289971,,2019-03-18 17:36:25,ParkTransportation,Roy Smith Jr.,Illinois,17.00
+290016,,2019-03-18 22:06:27,BlueMoonPizzaFortMyers,Janiel Vega,Florida,13.02
+290096,,2019-03-19 19:57:34,NorthwestDrivetrain,bryant phelps,Texas,11.50
+290139,,2019-03-20 13:53:40,ParkTransportation,Elie Dankha,Illinois,17.00
+290168,,2019-03-20 15:34:59,CramerSecurityInvestigationsInc,Herbert McKinney,West Virginia,17.50
+290171,,2019-03-20 15:47:43,CramerSecurityInvestigationsInc,Kaitlyn Blair,West Virginia,17.50
+290173,,2019-03-20 15:51:20,CramerSecurityInvestigationsInc,Paul Workman,West Virginia,17.50
+290175,,2019-03-20 15:54:41,NorthwestDrivetrain,bryant phelps,Texas,11.50
+290176,,2019-03-20 15:56:55,STMagicEnterprisesInc,David Heater,Texas,11.50
+290202,,2019-03-20 17:15:57,FuntasticShows,Stacia Harris,Alabama,16.00
+290240,,2019-03-20 19:22:27,LocustLakeVillagePOA,Joseph Lauth,Pennsylvania,17.00
+290253,,2019-03-20 20:44:50,CramerSecurityInvestigationsInc,Lake Maxwell,West Virginia,17.50
+290255,,2019-03-20 21:07:07,CramerSecurityInvestigationsInc,Lake Maxwell,West Virginia,17.50
+290273,,2019-03-21 02:52:55,RainierAmusements,Kenneth Cummings,Oregon,15.00
+290278,,2019-03-21 13:02:33,NewRichmondSchoolDistrict,Kelsy Johnson,Wisconsin,12.00
+290286,,2019-03-21 13:46:05,NewRichmondSchoolDistrict,Kennedy Navis,Wisconsin,12.00
+290320,,2019-03-21 16:51:52,MontelloSchoolDistrict,Brenna Bays,Wisconsin,12.00
+290340,,2019-03-21 18:47:48,BlueMoonPizzaFortMyers,Andrew Ayala,Florida,13.02
+290349,,2019-03-21 19:10:33,BlueMoonPizzaFortMyers,Pedro Reyes,Florida,13.02
+290356,,2019-03-21 20:14:27,BlueMoonPizzaBuckhead,HEATHER Fox,Georgia,11.00
+290359,,2019-03-21 20:16:45,BlueMoonPizzaBuckhead,AARON Chasteen,Tennessee,12.50
+290361,,2019-03-21 20:24:04,BlueMoonPizzaBuckhead,HEATHER FOX,Georgia,11.00
+290363,,2019-03-21 20:25:55,BlueMoonPizzaBuckhead,PAUL PRITCHETT,Georgia,11.00
+290364,,2019-03-21 20:27:22,BlueMoonPizzaBuckhead,DWAIN Bowens,Georgia,11.00
+290365,,2019-03-21 20:29:31,BlueMoonPizzaBuckhead,ADAM BOWENS,Georgia,11.00
+290366,,2019-03-21 20:30:17,ParkTransportation,Allante Hill,Illinois,17.00
+290367,,2019-03-21 20:51:36,ParkTransportation,Josue Regalado-Salcido,Illinois,17.00
+290385,,2019-03-22 13:15:00,AlpineAmusementCo,Christopher Pfeifer,Wisconsin,12.00
+290431,,2019-03-22 18:20:33,ParkTransportation,Roy Smith Jr.,Illinois,17.00
+290436,,2019-03-22 18:38:30,ParkTransportation,Craig Morris,Illinois,17.00
+290485,,2019-03-23 20:42:12,STMagicEnterprisesInc,Whitney Mills,Iowa,13.50
+290549,,2019-03-25 17:45:25,CramerSecurityInvestigationsInc,Angela Wall,West Virginia,17.50
+290670,,2019-03-26 15:17:03,CramerSecurityInvestigationsInc,victoria ratliff,Virginia,13.00
+290749,,2019-03-26 20:58:24,CramerSecurityInvestigationsInc,Timmy justice,West Virginia,17.50
+290791,,2019-03-27 14:55:03,NewRichmondSchoolDistrict,Kaiya Fox,Wisconsin,12.00
+290832,,2019-03-27 17:58:46,CramerSecurityInvestigationsInc,glenn Goss,West Virginia,17.50
+290902,,2019-03-28 14:01:56,ParkTransportation,Marcel Burns,Illinois,17.00
+290903,,2019-03-28 14:02:41,ParkTransportation,Joseph Thomas,Indiana,12.50
+290920,,2019-03-28 14:56:14,CramerSecurityInvestigationsInc,Bobby Green,West Virginia,17.50
+290963,,2019-03-28 17:18:19,CramerSecurityInvestigationsInc,nina lambert,West Virginia,17.50
+290967,,2019-03-28 17:50:09,CramerSecurityInvestigationsInc,Kevin Moore,Tennessee,12.50
+291021,,2019-03-29 01:38:00,RainierAmusements,Douglass Terrell,Illinois,17.00
+291040,,2019-03-29 13:48:46,ParkTransportation,Navid Golbodaghian,Illinois,17.00
+291042,,2019-03-29 13:50:04,CramerSecurityInvestigationsInc,sherman carroll,West Virginia,17.50
+291054,,2019-03-29 14:43:22,ParkTransportation,Martin Rodriguez,Illinois,17.00
+291126,,2019-03-29 20:36:19,CramerSecurityInvestigationsInc,bill sampson,West Virginia,17.50
+291128,,2019-03-29 20:37:35,CramerSecurityInvestigationsInc,katrina walls,West Virginia,17.50
+291153,,2019-03-30 22:11:30,RainierAmusements,Shanna Kelly,Oregon,15.00
+291164,,2019-03-30 22:39:33,RainierAmusements,Brandon Cooley,Washington,18.00
+291167,,2019-03-30 22:42:42,RainierAmusements,RYLEE ANDREWS,Idaho,14.00
+291170,,2019-03-30 22:50:46,RainierAmusements,DEBRA FREDERICK,Washington,18.00
+291262,,2019-04-01 17:11:25,STMagicEnterprisesInc,Edward Esposito,Florida,13.02
+291336,,2019-04-02 13:40:06,CramerSecurityInvestigationsInc,Darious Burns,West Virginia,17.50
+291341,,2019-04-02 13:42:58,CramerSecurityInvestigationsInc,Jack Elkins,West Virginia,17.50
+291343,,2019-04-02 13:47:38,CramerSecurityInvestigationsInc,Tommy Venoy,West Virginia,17.50
+291345,,2019-04-02 13:50:02,CramerSecurityInvestigationsInc,Luke Aliff,West Virginia,17.50
+291366,,2019-04-02 14:46:39,CramerSecurityInvestigationsInc,Heather Ross,West Virginia,17.50
+291438,,2019-04-02 19:21:45,CramerSecurityInvestigationsInc,Frank Stump,West Virginia,17.50
+291441,,2019-04-02 19:29:11,CramerSecurityInvestigationsInc,Hunter Redden,West Virginia,17.50
+291447,,2019-04-02 19:33:50,CramerSecurityInvestigationsInc,Adam Ferrell,West Virginia,17.50
+291451,,2019-04-02 19:38:39,CramerSecurityInvestigationsInc,Armeldia Barker,West Virginia,17.50
+291552,,2019-04-03 14:32:08,NewRichmondSchoolDistrict,BreAnna Sonnee,Wisconsin,12.00
+291638,,2019-04-03 20:12:40,NewRichmondSchoolDistrict,Julie Koop,Wisconsin,12.00
+291689,,2019-04-04 01:27:55,STMagicEnterprisesInc,April McGee,Florida,13.02
+291715,,2019-04-04 14:02:08,NewRichmondSchoolDistrict,Janine Emerson,Wisconsin,12.00
+291720,,2019-04-04 14:14:49,NewRichmondSchoolDistrict,Shelley Huber,Wisconsin,12.00
+291726,,2019-04-04 14:41:30,CramerSecurityInvestigationsInc,Kameron Bass,West Virginia,17.50
+291734,,2019-04-04 15:07:42,ParkTransportation,Ryszard Dlugosz,Illinois,17.00
+291773,,2019-04-04 17:04:43,ParkTransportation,Jose Brito,Illinois,17.00
+291795,,2019-04-04 17:55:21,NescoResourceOrlando,Albert Borrero Paz,Florida,13.02
+291805,,2019-04-04 18:38:22,NewRichmondSchoolDistrict,Sarah Murtinger,Wisconsin,12.00
+291809,,2019-04-04 18:51:22,NescoResourceOrlando,Michael Liszewski,Florida,13.02
+291821,,2019-04-04 19:14:35,AlpineAmusementCo,Thomas Stump,Illinois,17.00
+291826,,2019-04-04 19:18:29,AlpineAmusementCo,Jason Dierbeck,Illinois,17.00
+291829,,2019-04-04 19:22:13,AlpineAmusementCo,Richard Hartmann,Illinois,17.00
+291835,,2019-04-04 19:33:18,AlpineAmusementCo,Lawrence Hartigan,Florida,13.02
+291838,,2019-04-04 19:36:33,AlpineAmusementCo,Jermaine Spinks,Illinois,17.00
+291839,,2019-04-04 19:39:21,BlueMoonPizzaBuckhead,Joshua Daugherty,Georgia,11.00
+291842,,2019-04-04 19:39:41,AlpineAmusementCo,Michael Murphy,Illinois,17.00
+291843,,2019-04-04 19:41:38,BlueMoonPizzaBuckhead,Joshua Hubbard Daugherty,Georgia,11.00
+291846,,2019-04-04 19:54:26,AlpineAmusementCo,Steve Appelbaum,Illinois,17.00
+291848,,2019-04-04 19:57:21,AlpineAmusementCo,Gregory Burrage,Illinois,17.00
+291867,,2019-04-04 20:39:18,TriangleDistribution,RICHARD VAFIADOU,New York,12.00
+291906,,2019-04-05 13:38:07,NewRichmondSchoolDistrict,Joshua Martinson,Wisconsin,12.00
+291914,,2019-04-05 13:49:26,NewRichmondSchoolDistrict,Rose Jr. Samuel,Wisconsin,12.00
+291925,,2019-04-05 14:46:10,ParkTransportation,Arturo Murillo,Illinois,17.00
+291943,,2019-04-05 16:11:21,CramerSecurityInvestigationsInc,Jane Whaley,South Carolina,12.25
+291952,,2019-04-05 16:31:10,CramerSecurityInvestigationsInc,Corey Frye,West Virginia,17.50
+291960,,2019-04-05 17:17:32,AlpineAmusementCo,Elizabeth Reynolds,Illinois,17.00
+291963,,2019-04-05 17:19:31,AlpineAmusementCo,Vidal Kesler,Wisconsin,12.00
+291968,,2019-04-05 17:23:13,AlpineAmusementCo,Toni Booker,Wisconsin,12.00
+291975,,2019-04-05 18:05:34,CramerSecurityInvestigationsInc,Seth Daniel,West Virginia,17.50
+291978,,2019-04-05 18:11:15,CramerSecurityInvestigationsInc,Mary kinser,West Virginia,17.50
+291983,,2019-04-05 18:16:54,CramerSecurityInvestigationsInc,corey pettry,West Virginia,17.50
+292003,,2019-03-29 15:40:12,LVWElectronics,Timothy Sanchez,Colorado,7.20
+292031,,2019-04-05 20:23:21,ParkTransportation,Jomalier Rivera Santiago,Illinois,17.00
+292032,,2019-04-05 20:27:41,ParkTransportation,Jomalier Rivera Santiago,Illinois,17.00

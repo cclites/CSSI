@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BackgroundReports>
+    <BackgroundReportPackage type="report">
+        <Screenings>
+            <Screening qualifier="county" type="criminal">
+                <ClientReferenceId>
+                    <IdValue>1234567</IdValue>
+                </ClientReferenceId>
+                <CriminalReport>
+                    <CriminalCase>
+                        <AdditionalItems qualifier="Court">
+                            <Text>NORTH CAROLINA - WAKE - Criminal District Court</Text>
+                        </AdditionalItems>
+                        <AgencyReference type="Case">
+                            <IdValue>09CR 765700</IdValue>
+                        </AgencyReference>
+                        <CaseFileDate>
+                            <AnyDate>2009-11-03</AnyDate>
+                        </CaseFileDate>
+                        <Charge>
+                            <ChargeOrComplaint>NO OPERATORS LICENSE (STATUTE: 20-7(A)) TRAFFIC</ChargeOrComplaint>
+                            <ChargeTypeClassification>TRAFFIC CRIMINAL</ChargeTypeClassification>
+                            <Disposition>GUILTY</Disposition>
+                            <DispositionDate>
+                                <AnyDate>2009-12-10</AnyDate>
+                            </DispositionDate>
+                            <OffenseDate>
+                                <AnyDate>2009-11-03</AnyDate>
+                            </OffenseDate>
+                            <Sentence>Other: FINES/COSTS.
+</Sentence>
+                        </Charge>
+                        <SubjectConfirmation>
+                            <ConfirmByProvidedName>true</ConfirmByProvidedName>
+                            <ConfirmByDateOfBirth>true</ConfirmByDateOfBirth>
+                            <ConfirmByGovernmentId>false</ConfirmByGovernmentId>
+                            <ConfirmByOtherId>false</ConfirmByOtherId>
+                        </SubjectConfirmation>
+                        <SubjectIdentification>
+                            <AdditionalItems qualifier="AddressOnFile">
+                                <Text>RALEIGH, NC 27610</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="AliasesOnFile">
+                                <Text></Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="AdditionalIdInfo">
+                                <Text>DL Number: 123456; SSN: 1234;</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="EthnicityOnFile">
+                                <Text>Black</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="GenderOnFile">
+                                <Text>Female</Text>
+                            </AdditionalItems>
+                            <PersonName type="Subject">
+                                <GivenName>First</GivenName>
+                                <MiddleName>Middle</MiddleName>
+                                <FamilyName>Last</FamilyName>
+                            </PersonName>
+                        </SubjectIdentification>
+                    </CriminalCase>
+                    <CriminalCase>
+                        <AdditionalItems qualifier="Court">
+                            <Text>NORTH CAROLINA - WAKE - Criminal District Court</Text>
+                        </AdditionalItems>
+                        <AgencyReference type="Case">
+                            <IdValue>11CR 715904</IdValue>
+                        </AgencyReference>
+                        <CaseFileDate>
+                            <AnyDate>2011-03-01</AnyDate>
+                        </CaseFileDate>
+                        <Charge>
+                            <ChargeOrComplaint>SIMPLE ASSAULT (STATUTE: 14-33(A))</ChargeOrComplaint>
+                            <ChargeTypeClassification>MISDEMEANOR</ChargeTypeClassification>
+                            <Disposition>DISMISSED</Disposition>
+                            <DispositionDate>
+                                <AnyDate>2011-08-03</AnyDate>
+                            </DispositionDate>
+                            <OffenseDate>
+                                <AnyDate>2011-03-01</AnyDate>
+                            </OffenseDate>
+                            <Sentence></Sentence>
+                        </Charge>
+                        <SubjectConfirmation>
+                            <ConfirmByProvidedName>true</ConfirmByProvidedName>
+                            <ConfirmByDateOfBirth>true</ConfirmByDateOfBirth>
+                            <ConfirmByGovernmentId>false</ConfirmByGovernmentId>
+                            <ConfirmByOtherId>false</ConfirmByOtherId>
+                        </SubjectConfirmation>
+                        <SubjectIdentification>
+                            <AdditionalItems qualifier="AddressOnFile">
+                                <Text>GARNER, NC 27529</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="AliasesOnFile">
+                                <Text></Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="AdditionalIdInfo">
+                                <Text>DL Number: 12345678; SSN: 1234;</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="EthnicityOnFile">
+                                <Text>Black</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="GenderOnFile">
+                                <Text>Female</Text>
+                            </AdditionalItems>
+                            <PersonName type="Subject">
+                                <GivenName>First</GivenName>
+                                <MiddleName>Middle</MiddleName>
+                                <FamilyName>Last</FamilyName>
+                            </PersonName>
+                        </SubjectIdentification>
+                    </CriminalCase>
+                    <CriminalCase>
+                        <AdditionalItems qualifier="Court">
+                            <Text>NORTH CAROLINA - WAKE - Criminal District Court</Text>
+                        </AdditionalItems>
+                        <AgencyReference type="Case">
+                            <IdValue>15CR 707730</IdValue>
+                        </AgencyReference>
+                        <CaseFileDate>
+                            <AnyDate>2015-02-02</AnyDate>
+                        </CaseFileDate>
+                        <Charge>
+                            <ChargeOrComplaint>EXPIRED REGISTRATION CARD/TAG (STATUTE: 20-111(2))</ChargeOrComplaint>
+                            <ChargeTypeClassification>TRAFFIC CRIMINAL</ChargeTypeClassification>
+                            <Disposition>DISMISSED</Disposition>
+                            <DispositionDate>
+                                <AnyDate>2015-03-04</AnyDate>
+                            </DispositionDate>
+                            <OffenseDate>
+                                <AnyDate>2015-02-01</AnyDate>
+                            </OffenseDate>
+                            <Sentence></Sentence>
+                        </Charge>
+                        <SubjectConfirmation>
+                            <ConfirmByProvidedName>true</ConfirmByProvidedName>
+                            <ConfirmByDateOfBirth>true</ConfirmByDateOfBirth>
+                            <ConfirmByGovernmentId>false</ConfirmByGovernmentId>
+                            <ConfirmByOtherId>false</ConfirmByOtherId>
+                        </SubjectConfirmation>
+                        <SubjectIdentification>
+                            <AdditionalItems qualifier="AddressOnFile">
+                                <Text>GARNER, NC 27529</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="AliasesOnFile">
+                                <Text></Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="AdditionalIdInfo">
+                                <Text>DL Number: 12345678; SSN: 1234;</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="EthnicityOnFile">
+                                <Text>Black</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="GenderOnFile">
+                                <Text>Female</Text>
+                            </AdditionalItems>
+                            <PersonName type="Subject">
+                                <GivenName>First</GivenName>
+                                <MiddleName>Middle</MiddleName>
+                                <FamilyName>Last</FamilyName>
+                            </PersonName>
+                        </SubjectIdentification>
+                    </CriminalCase>
+                </CriminalReport>
+                <ScreeningStatus>
+                    <OrderStatus>Completed</OrderStatus>
+                    <ResultStatus>Hit</ResultStatus>
+                </ScreeningStatus>
+            </Screening>
+        </Screenings>
+    </BackgroundReportPackage>
+</BackgroundReports>

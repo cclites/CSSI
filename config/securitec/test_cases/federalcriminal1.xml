@@ -1,0 +1,89 @@
+ <BackgroundReportPackage type="report">
+        <Screenings>
+            <Screening qualifier="federalCriminal" type="criminal">
+                <ClientReferenceId>
+                    <IdValue>221212</IdValue>
+                </ClientReferenceId>
+                <CriminalReport>
+                    <CriminalCase>
+                        <AdditionalItems qualifier="Court">
+                            <Text>District</Text>
+                        </AdditionalItems>
+                        <AdditionalItems qualifier="County">
+                            <Text>Eastern District of Virginia - (Newport News)</Text>
+                        </AdditionalItems>
+                        <AgencyReference type="Case">
+                            <IdValue>4:13-cr-00053-RBS-TEM-1</IdValue>
+                        </AgencyReference>
+                        <CaseFileDate>
+                            <AnyDate>2013-05-15</AnyDate>
+
+                        </CaseFileDate>
+                        <Charge>
+                            <ChargeOrComplaint>(1) USC 1001 - False Statements</ChargeOrComplaint>
+                            <ChargeTypeClassification>FELONY</ChargeTypeClassification>
+                            <Disposition>GUILTY</Disposition>
+                            <DispositionDate>
+                                <AnyDate>2013-09-10</AnyDate>
+
+                            </DispositionDate>
+                            <OffenseDate>
+                                <AnyDate>2013-05-15</AnyDate>
+
+                            </OffenseDate>
+                            <Sentence>Prison: (33) MONTHS
+Other: (3) YEARS SUPERVISED RELEASE
+</Sentence>
+                        </Charge>
+                        <Charge>
+                            <ChargeOrComplaint>(2) USC 1001 - False Statements</ChargeOrComplaint>
+                            <ChargeTypeClassification>FELONY</ChargeTypeClassification>
+                            <Disposition>DISMISSED</Disposition>
+                            <DispositionDate>
+                                <AnyDate>2013-09-10</AnyDate>
+
+                            </DispositionDate>
+                            <OffenseDate>
+                                <AnyDate>2013-05-15</AnyDate>
+
+                            </OffenseDate>
+                            <Sentence/>
+                        </Charge>
+                        <SubjectConfirmation>
+                            <ConfirmByProvidedName>true</ConfirmByProvidedName>
+                            <ConfirmByDateOfBirth>false</ConfirmByDateOfBirth>
+                            <ConfirmByGovernmentId>false</ConfirmByGovernmentId>
+                            <ConfirmByOtherId>false</ConfirmByOtherId>
+                        </SubjectConfirmation>
+                        <SubjectIdentification>
+                            <AdditionalItems qualifier="AddressOnFile">
+                                <Text/>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="AliasesOnFile">
+                                <Text>DISPLAYED CASE IS NAME MATCH ONLY
+</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="AdditionalIdInfo">
+                                <Text/>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="EthnicityOnFile">
+                                <Text/>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="GenderOnFile">
+                                <Text/>
+                            </AdditionalItems>
+                            <PersonName type="Subject">
+                                <GivenName>Carl</GivenName>
+                                <MiddleName>Henry</MiddleName>
+                                <FamilyName>Coleman</FamilyName>
+                            </PersonName>
+                        </SubjectIdentification>
+                    </CriminalCase>
+                </CriminalReport>
+                <ScreeningStatus>
+                    <OrderStatus>Completed</OrderStatus>
+                    <ResultStatus>Hit</ResultStatus>
+                </ScreeningStatus>
+            </Screening>
+        </Screenings>
+    </BackgroundReportPackage>

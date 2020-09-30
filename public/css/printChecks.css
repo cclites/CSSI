@@ -1,0 +1,90 @@
+@page {
+  size: A4;
+  margin: 0 -6px;
+}
+
+@media print {
+	
+	html, body {
+	  width: 260mm;
+	  /*height: 297mm;*/
+	  font-size: 11px;
+	  margin: 0 -6px;
+	}
+    
+	aside.main-sidebar,
+	header
+	.checks-print {
+		display: none;
+	}
+	
+	.wrapper{
+		background-color: #fff;
+	}
+	
+	.content{
+		/*margin-left: 12px;*/
+	}
+	
+	.report_template h5,
+	.report_template h4,
+	.line:nth-of-type(2n+1) {
+		background-color: #eee;
+	}
+	
+	
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+	  float: left;
+	}
+	.col-md-12 {
+	  width: 100%;
+	}
+	.col-md-11 {
+	  width: 91.66666666666666%;
+	}
+	.col-md-10 {
+	  width: 83.33333333333334%;
+	}
+	.col-md-9 {
+	  width: 75%;
+	}
+	.col-md-8 {
+	  width: 66.66666666666666%;
+	}
+	.col-md-7 {
+	  width: 58.333333333333336%;
+	}
+	.col-md-6 {
+	  width: 50%;
+	}
+	.col-md-5 {
+	  width: 41.66666666666667%;
+	}
+	.col-md-4 {
+	  width: 33.33333333333333%;
+	 }
+	 .col-md-3 {
+	   width: 25%;
+	 }
+	 .col-md-2 {
+	   width: 16.666666666666664%;
+	 }
+	 .col-md-1 {
+	  width: 8.333333333333332%;
+	 }
+	
+    .report_template h5{
+    	font-size: 12px;
+    }
+    
+    aside.main-sidebar,
+	header,
+	button.checks-print {
+		display: none;
+	}
+}
+
+
+
+
+

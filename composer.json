@@ -1,0 +1,78 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.0.0",
+        "albertcht/invisible-recaptcha": "^1.8",
+        "devfactory/minify": "1.0.*",
+        "dingo/api": "2.0.0-alpha1",
+        "fedeisas/laravel-mail-css-inliner": "^2.2",
+        "fideloper/proxy": "~3.3",
+        "guzzlehttp/guzzle": "^6.3",
+        "laracasts/flash": "^3.0",
+        "laravel/framework": "5.5.*",
+        "laravel/tinker": "~1.0",
+        "laravelcollective/html": "^5.5.0",
+        "maatwebsite/excel": "~2.1.0",
+        "nathanmac/Parser": "^4.3",
+        "predis/predis": "^1.1",
+        "rtconner/laravel-kint": "~3.0",
+        "spatie/laravel-permission": "^2.7",
+        "squareboat/sneaker": "^3.0",
+        "stripe/stripe-php": "^5.2",
+        "tymon/jwt-auth": "0.5.*",
+        "waavi/url-shortener": "1.0.x"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.1",
+        "filp/whoops": "~2.0",
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~6.0",
+        "phpdocumentor/phpdocumentor": "2.*"
+    },
+    "autoload": {
+        "files": [
+            "app/Http/helpers.php",
+            "app/Http/conversionTools.php"
+        ],
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+            ]
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

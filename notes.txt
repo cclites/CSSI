@@ -1,0 +1,66 @@
+eyeforsecurity.com
+-------------------------
+ssh ec2-user@eyeforsecurity.com -i ./ssh/eyeforsecurity
+
+var/www/html/eyeforsecurity.com/httpdocs
+
+Username: cssi
+Password: 2468
+
+
+Examples of those with dirt: 
+https://www.eyeforsecurity.com/admin2/check_detail.php?ID=233947&PID=4
+https://www.eyeforsecurity.com/admin2/check_detail.php?ID=226598&PID=2
+https://www.eyeforsecurity.com/admin2/check_detail.php?ID=225964&PID=3
+
+
+
+Mobile App
+------------------------
+
+
+
+api.eyeforsecurity.com
+-------------------------
+
+
+Example: 
+
+first_name: Christopher
+last_name: Thomas
+birthday: 10/20/1960
+ssn: 262737185
+________________________
+result: murder, theft, dui, marijuana
+
+
+first_name: Christopher
+last_name: Thomas
+birthday: 10/20/1960
+ssn: 999999999
+________________________
+result: nothing to report (but it should!)
+
+
+first_name: Christopher
+last_name: Thomas
+birthday: 10/20/1960
+ssn: 608106412
+________________________
+result: nothing to report (but it should!)
+
+
+first_name: Christine
+last_name: Ettore
+birthday: 07/11/1990
+ssn: 590021861
+________________________
+result: traffic infractions
+
+
+first_name: Christine
+last_name: Ettore
+birthday: 07/11/1990
+ssn: 999999999
+________________________
+result: traffic infractions (as it should be, even with bogus ssn)

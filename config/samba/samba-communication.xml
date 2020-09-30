@@ -1,0 +1,10 @@
+<Communications>
+	<Host>Online</Host>
+	<Account></Account>
+	<UserID></UserID>
+	<Password></Password>
+	<ReportTypes>
+		<Type>XML2.02</Type>
+	</ReportTypes>
+	<OriginationID></OriginationID>
+</Communications>

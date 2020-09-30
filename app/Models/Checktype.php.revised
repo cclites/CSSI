@@ -1,0 +1,327 @@
+<?php
+
+// Note: this is a joining table with additional attributes stored in it. 
+// Sometimes it's just easier to edit this table directly rather than go with Laravel's pivot functions
+
+namespace App\Models;
+
+use DB;
+use Log;
+
+use App\Models\User;
+use App\Models\Check;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Checktype extends Model {
+
+	public $timestamps = false;
+
+	protected $table = 'check_type';
+	
+	protected $ownerId = null;
+	protected $prices = null;
+
+	// Relationships
+    public function check()
+    {
+    	return $this->belongsTo('App\Models\Check');
+    }
+
+    public function type()
+    {
+    	return $this->belongsTo('App\Models\Type');
+    }
+
+	public function is_completed(){
+		//Log::info("Setting Checktype completed");
+		$this->completed_at = \Carbon\Carbon::now();
+        $this->save();
+        return true;
+	}
+	
+	public function getOwnerId(){
+		
+		if(isset($this->ownerId)){
+			return $this->ownerId;
+		}
+		
+		$check = Check::find($this->check->id);
+
+		$owner = User::where('company_id', $check->company_id)
+		         ->where('company_rep', true)
+				 ->first();
+				 		 
+		$this->ownerId = $owner->id;
+		return $this->ownerId;
+
+	}
+	
+	/*
+	public function ownedBy(){
+		
+		if(isset($this->ownerId)){
+			//Log::info("Owned by is set");
+			return $this->ownerId;
+		}
+
+		$userId = DB::table("check_type")
+		           ->join("checks", "check_type.check_id", "=", "checks.id")
+				   ->select("checks.user_id")
+				   ->where("check_type.check_id", $this->check_id)
+				   ->first();
+		   
+		$user = User::find($userId->user_id);
+		
+		$company_id = $user->company_id;
+		
+		//echo "Company id is " . $company_id . "\n";
+		//Log::info("Company is " . json_encode($user));
+		
+		$owner = DB::table("users")
+		         ->where('company_rep', true)
+				 ->where('company_id', $company_id)
+				 ->first();
+				 
+		//echo "Company owner/user is " . json_encode($owner) . "\n";
+		//echo "Owner id = " . $owner->id . "\n";
+		
+		if(!$owner){
+			Log::info("There is no owner for this transaction");
+			return 0;
+		}
+
+		$this->ownerId = $owner->id;
+		return $this->ownerId;
+				   
+	}
+	*/
+	
+	public function getPrices(){
+		
+		$price = DB::table("prices")
+				 ->where("prices.user_id", $this->getOwnerId() )
+				 ->get();	
+		
+	}
+	
+	
+	//TODO: Add pricing into CheckType model for education, employment, Infutor, and UsInfoSearch
+	public function price(){
+		
+		$userId = $this->getOwnerId();
+		
+		$prices = $this->getPrices();
+		$this->prices = $prices;
+		
+		$price = $prices->where('type_id', $this->type->id)->pluck('amount');
+		
+		
+		//would like to do this differently. Would like to 
+		//make one call for all prices.
+		/*
+		$price = DB::table("prices")
+				  ->where("prices.user_id", $this->getOwnerId() )
+				  ->where("type_id", $this->type_id)
+				  ->pluck("amount");
+		*/
+				  
+		$amount = 0;
+		
+		$singleChecksOnly = [1,2,5,8,9];
+		
+		//$addonFees = [3,4,6,7,10];
+		
+		if(in_array($this->type_id, $singleChecksOnly)){
+			$amount += floatval($price[0]);	
+		}
+		
+		//Log::info("Type id is " . $this->type_id);
+		
+		//These get handled in a different manner.
+		/*
+		if($this->type_id !== 4 && $this->type_id !== 6 && $this->type_id !== 3 && $this->type_id !== 7 ){
+			$amount += floatval($price[0]);
+		}*/
+		
+		
+		
+		if($this->type_id == 10){   //mrvs - amount per state
+		
+			$amount += $this->checkStates();
+		
+		}else if($this->type_id == 4){ //county check - price per county
+		
+			$amount += $this->checkCounties();
+			
+		}else if($this->type_id == 6){  //federal state
+		
+			//Log::info(json_encode($this->checkFederalState()));
+			$amount += $this->checkFederalState();
+			
+		}else if($this->type_id == 7){//federal district
+		
+			$amount += $this->checkDistricts();  
+			
+		}else if($this->type_id == 3){//state
+		
+			//Log::info(json_encode($this->checkTriEyeState()));
+			$amount += $this->checkTriEyeState();
+	
+		}else if($this->type_id == 9){//education
+			$amount += $this->checkEducation();
+		}
+		
+		//Log::info("Amount for this check_type is $amount");
+		
+		return $amount;
+
+    }
+	
+	//MVRs
+	public function checkStates(){
+					
+	    $amount = 0;			
+			
+		try{
+			$states = $this->check->states;
+			
+			foreach($states as $state){
+				$amount += $state->mvr_cost;
+			}
+	
+		}catch(Exception $e){
+			Log::info($e);
+		}
+		
+		return $amount;
+		
+	}
+	
+	public function checkDistricts(){
+		
+		$count = DB::table("check_district")
+				 ->where("check_id", $this->check_id)
+				 ->count();
+				 		 
+		$districtPrice = DB::table("prices")
+						 ->where("prices.user_id", $this->getOwnerId())
+						 ->where("type_id", $this->type_id)
+						 ->pluck("amount");
+						 
+		$amount = $count * floatVal($districtPrice[0]);
+		return $amount;
+	}
+	
+	public function checkCounties(){
+		
+		Log::info("Checktype::checkCounties");
+		
+		$counties = DB::table("check_county")
+				 ->where("check_id", $this->check_id)
+				 ->get();
+		 		 
+		$countyPrice = DB::table("prices")
+						 ->where("prices.user_id", $this->getOwnerId())
+						 ->where("type_id", $this->type_id)
+						 ->pluck("amount");
+					 
+		$amount = count($counties) * floatVal($countyPrice[0]);
+		$passthrough = 0;
+		
+		foreach($counties as $county){
+			
+			$amnt = DB::table("counties")
+			          ->where("counties.id", $county->county_id)
+					  ->pluck("extra_cost");
+  
+			$passthrough += floatval($amnt[0]);
+
+		}
+
+		$amount += $passthrough;
+
+		return $amount;
+	}
+	
+	public function checkFederalState(){
+				
+		Log::info("Check federal state");
+		
+		$states  = DB::table("check_state_federal")
+				 ->where("check_id", $this->check_id)
+				 ->get();
+				 		 
+		$countyPrice = DB::table("prices")
+						 ->where("prices.user_id", $this->getOwnerId())
+						 ->where("type_id", $this->type_id)
+						 ->pluck("amount");
+						 
+		$amount = count($states) * floatVal($countyPrice[0]);
+		
+		Log::info($amount);
+		
+		//also need passthrough price for each state
+		$passthrough = 0;
+		
+		foreach($states as $state){
+			
+			$amnt = DB::table("states")
+			          ->where("states.id", $state->state_id)
+					  ->pluck("extra_cost");
+					  
+			$passthrough += floatval($amnt[0]);
+		}
+		
+		$amount += $passthrough;
+		return $amount;
+		
+	}
+	
+	public function checkTriEyeState(){
+		
+		Log::info("Check TriEyeState");
+		$ownerId = $this->getOwnerId();
+		
+		$state_checks = DB::table("check_state")
+				        ->where("check_id", $this->check_id)
+				        ->get();
+			
+		$balance = 0;
+		
+		foreach($state_checks as $check){
+			
+			Log::info(json_encode($check));
+			
+			
+		}
+		
+		/*
+		$statePrice =    DB::table("prices")
+						 ->where("prices.user_id", $ownerId)
+						 ->where("type_id", $this->type_id)
+						 ->pluck("amount");
+						 
+		$balance = count($state_checks) * floatVal($statePrice[0]);
+					
+		foreach($state_checks as $check){
+			
+			$amount = DB::table("states")
+			          ->where("states.id", $check->state_id)
+					  ->pluck("extra_cost");
+					  
+			$balance += floatval($amount[0]);
+		}
+		 * 
+		 */
+		
+		return $balance;
+		
+	}
+	
+	public function checkEducation(){
+		
+		$amount = $this->check->additional_amount;
+		return floatval($amount);
+	}
+}

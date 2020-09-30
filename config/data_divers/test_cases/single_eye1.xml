@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataDiversXML>
+
+<Authentication>
+        <Username></Username>
+        <Password></Password>
+</Authentication>
+<SubjectDetail>
+        <FirstName>Hasaan</FirstName>
+        <MiddleName/>
+        <LastName>Rutherford</LastName>
+        <DOBMonth>01</DOBMonth>
+        <DOBDay>17</DOBDay>
+        <DOBYear>1996</DOBYear>
+
+        <Age/>
+        <FileID/>
+
+        <SSN>***-**-</SSN>
+        <NickNames/>
+        <Aliases>
+        	<Alias>Joe Schmoe</Alias>
+			<Alias>Ragu Tony</Alias>
+        </Aliases>
+        <ZipCodes/>
+
+</SubjectDetail>
+<ProcessingRules>
+
+    <InstantCriminalRules>
+        <FirstName>
+            <ExactMatchOnly>Yes</ExactMatchOnly>
+            <TruncationLevel>0</TruncationLevel>
+
+                <NickNameSearch proximity="1">Yes</NickNameSearch>
+
+        </FirstName>
+        <MiddleName>
+            <MatchOnInitial>Yes</MatchOnInitial>
+        </MiddleName>
+        <LastName>
+            <ExactMatchOnly>Yes</ExactMatchOnly>
+            <ParsePunctuation>Yes</ParsePunctuation>
+            <TruncationLevel>0</TruncationLevel>
+        </LastName>
+                <AliasName>
+                        <AliasExactNameMatch>Off</AliasExactNameMatch>
+                </AliasName>
+        <Age>
+            <YearRange>0</YearRange>
+        </Age>
+        <DOB>
+            <YearRange>0</YearRange>
+            <IncludeIncompleteDOBMatch>No</IncludeIncompleteDOBMatch>
+            <IncludePartialDOBMatch>No</IncludePartialDOBMatch>
+            <IncludeNullDOBMatch>No</IncludeNullDOBMatch>
+            <ExcludeNullDOBStates/>
+        </DOB>
+        <ExcludeArrestData>No</ExcludeArrestData>
+        <ExcludeWarrantData>No</ExcludeWarrantData>
+        <ExcludeFugitiveData>No</ExcludeFugitiveData>
+        <SubCriteria>
+            <ZipcodeMatch Radius="0">No</ZipcodeMatch>
+        </SubCriteria>
+        <SexOffender>
+            <DOB>
+                <YearRange>0</YearRange>
+                <IncludeIncompleteDOBMatch>No</IncludeIncompleteDOBMatch>
+                <IncludePartialDOBMatch>No</IncludePartialDOBMatch>
+                <IncludeNullDOBMatch>No</IncludeNullDOBMatch>
+            </DOB>
+        </SexOffender>
+
+                <ExcludeRecords>
+                         <Exclude>Yes</Exclude>
+                         <YearRange>3</YearRange>
+                         <States/>
+                         <RecordAction>Flag</RecordAction>
+                         <MatchLevel>ArrestDate</MatchLevel>
+                         <ReturnAmbiguousRecords>Yes</ReturnAmbiguousRecords>
+                </ExcludeRecords>
+    </InstantCriminalRules>
+
+
+</ProcessingRules>
+<ServiceRequest>
+        <ServiceCode>MultistateFull</ServiceCode>
+
+        <SmartSearch>No</SmartSearch>
+
+        <States/>
+
+</ServiceRequest>
+
+<Response>
+    <InstantCriminalResponse>
+        <Alerts>
+
+                                <Alert type="Excluded Records">This result contains records that matched your exclusion filter values and are older than 3 years old.</Alert>
+
+        </Alerts>
+
+<OffenderCount>1</OffenderCount>
+
+        <Offender>
+                <FileID>1400212814-11-01310-I001</FileID>
+                <FirstName>HASAAN</FirstName>
+                <MiddleName>H</MiddleName>
+                <LastName>RUTHERFORD</LastName>
+                <Generation/>
+                <DOB>1/17/1996</DOB>
+                <MatchType>Exact Name And DOB Match</MatchType>
+
+                <SourceOfRecord sourceType="criminal">New Jersey Admin Office Of Courts (Defendant List)</SourceOfRecord>
+                <StateOfRecord>NJ</StateOfRecord>
+
+                <Records>
+                        <Record><Offense>Not Specified</Offense><Exclude match="FileDate" matchdate="11/06/2014">This Record has been found to be older than 3 years</Exclude><FileDate>11/06/2014</FileDate><OffenseCounty>Mercer</OffenseCounty><CaseNumber>14002128</CaseNumber><OffenseData><OffenseDetail title="Indictment Number">14-11-01310-I</OffenseDetail></OffenseData></Record>
+                </Records>
+        </Offender>
+
+<Recommendations>
+<CountyRecommendations>
+        <State value="NJ">
+                <County value="Mercer">
+
+                        <Offender>
+                                <FirstName>HASAAN</FirstName>
+                                <MiddleName>H</MiddleName>
+                                <LastName>RUTHERFORD</LastName>
+                                <FullName>HASAAN H RUTHERFORD</FullName>
+                                <DOB>1/17/1996</DOB>
+                                <Offenses>
+                                        <Offense>
+                                                <OffenseDescription>Not Specified</OffenseDescription>
+                                                <ApproximateDate>11/06/2014</ApproximateDate>
+                                        </Offense>
+                                </Offenses>
+                        </Offender>
+          </County>
+  </State>
+</CountyRecommendations>
+<NonCountyRecommendations>
+</NonCountyRecommendations>
+</Recommendations> </InstantCriminalResponse>
+</Response>
+</DataDiversXML>

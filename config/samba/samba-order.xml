@@ -1,0 +1,23 @@
+<Order>
+	<Handling>OL</Handling>
+	<State>
+		<Abbrev></Abbrev>
+	    <Full></Full>
+	</State>
+	<License></License>
+	<FirstName></FirstName>
+	<MiddleName></MiddleName>
+	<LastName></LastName>
+	<DOB>
+		<Year></Year>
+		<Month></Month>
+		<Day></Day>
+	</DOB>
+	<Subtype>3Y</Subtype>
+    <ProductID>DL</ProductID>
+    <Purpose>AT</Purpose>
+	<Misc></Misc>
+	<AuxMisc></AuxMisc>
+	<OriginationID></OriginationID> 
+</Order>
+

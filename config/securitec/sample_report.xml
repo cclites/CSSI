@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BackgroundReports>
+    <BackgroundReportPackage type="report">
+        <Screenings>
+            <Screening qualifier="county" type="criminal">
+                <ClientReferenceId>
+                    <IdValue>129159</IdValue>
+                </ClientReferenceId>
+                <CriminalReport>
+                    <CriminalCase>
+                        <AdditionalItems qualifier="County">
+                            <Text>County Name</Text>
+                        </AdditionalItems>
+                        <AdditionalItems qualifier="Court">
+                            <Text>Court Name</Text>
+                        </AdditionalItems>
+                        <AdditionalItems qualifier="State">
+                            <Text>VA</Text>
+                        </AdditionalItems>
+                        <AgencyReference type="Case">
+                            <IdValue>CR1234567</IdValue>
+                        </AgencyReference>
+                        <CaseFileDate>
+                            <AnyDate>2000-01-01</AnyDate>
+                        </CaseFileDate>
+                        <Charge>
+                            <ChargeOrComplaint>Offense Text</ChargeOrComplaint>
+                            <ChargeTypeClassification>Felony</ChargeTypeClassification>
+                            <ChargeClassification>Statute 1234</ChargeClassification>
+                            <Disposition>Guilty</Disposition>
+                            <DispositionDate>
+                                <AnyDate>2000-02-01</AnyDate>
+                            </DispositionDate>
+                            <OffenseDate>
+                                <AnyDate>2000-01-01</AnyDate>
+                            </OffenseDate>
+                            <Sentence>Sentencing Text</Sentence>
+                            <Comments>Offense Comments</Comments>
+                        </Charge>
+                        <SubjectConfirmation>
+                            <ConfirmByProvidedName>true</ConfirmByProvidedName>
+                            <ConfirmByDateOfBirth>true</ConfirmByDateOfBirth>
+                        </SubjectConfirmation>
+                        <SubjectIdentification>
+                            <PersonName type="Subject">
+                                <GivenName>First</GivenName>
+                                <MiddleName>Middle</MiddleName>
+                                <FamilyName>Last</FamilyName>
+                            </PersonName> 
+                            <AdditionalItems qualifier="AddressOnFile">
+                                <Text>123 Main Street, City, State 12345</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="AliasesOnFile">
+                                <Text>Alias, First; Alias, Second</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="AdditionalIdInfo">
+                                <Text>Height: 5'11"</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="DateOfBirthOnFile">
+                                <Text>01/01/1969</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="DLOnFile">
+                                <Text>ST123456789</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="GenderOnFile">
+                                <Text>Gender</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="EthnicityOnFile">
+                                <Text>Ethnicity</Text>
+                            </AdditionalItems>
+                            <AdditionalItems qualifier="SSNOnFile">
+                                <Text>111-22-3333</Text>
+                            </AdditionalItems>
+                        </SubjectIdentification>
+                    </CriminalCase>
+                </CriminalReport>
+                <ScreeningStatus>
+                    <OrderStatus>Completed</OrderStatus>
+                    <ResultStatus>Hit</ResultStatus>
+                </ScreeningStatus>
+            </Screening>
+        </Screenings>
+    </BackgroundReportPackage>
+</BackgroundReports>

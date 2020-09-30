@@ -1,0 +1,141 @@
+<?php
+namespace App\Console\Commands;
+
+use Illuminate\Console\Command;
+
+// Models
+use App\Models\User;
+use App\Models\Check;
+use App\Models\Type;
+use App\Models\Price;
+use App\Models\Transaction;
+use App\Models\Stat;
+
+use Carbon\Carbon;
+use Exception;
+use Log;
+
+
+class Bill extends Command
+{
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'bill {--simulate}';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Loop through all users/checks and create transaction for each one that hasn\'t yet been billed.';
+	protected $stat;
+
+    /**
+     * Create a new command instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
+
+    public function handle()
+    {
+    	
+		$this->stat = Stat::where('name', 'LastRanBilling')->first();
+		
+    	Log::info("Billing");
+		
+        $this->info($this->description);
+		
+		$stat = $this->stat;
+		$stat->val = "Processing transactions";
+		$stat->save();
+        
+        $users = User::orderBy('id')
+        ->with('prices')
+        ->chunk(100, function ($users) {
+        	
+            foreach ($users as $user) {
+            	
+                if ($user->is_suspended) {
+                	//Log::info('User ID: '.$user->id.' - Skipping suspended account');
+                    $this->line('User ID: '.$user->id.' - Skipping suspended account');
+                    continue;
+                }
+
+                $checks = Check::where('user_id', $user->id)
+                    ->whereNull('transaction_id')
+                    ->whereNotNull('completed_at')
+					->where('sandbox', false)
+                    ->with('types')
+                    ->get();
+					
+				$this->line('User ID: '.$user->id.' - has '.$checks->count().' unbilled checks');
+
+                foreach ($checks as $check) {
+                	
+                    $description = 'Check (ID: '.$check->id.') for '.$check->full_name;
+					
+                    $check_amount = 0;
+					$type_ids = "";
+					
+                    foreach($check->checktypes as $type) {
+                    	
+						
+                        $this->line('      Type ID: '.$type->type_id.' - '. $type->type->title);
+						
+						$stateName = "";
+
+						if($type->type_id == 10){
+							$stateName = "  (" . $type->check->states[0]->code. ")";
+						}
+						
+
+						$temp = $type->type_id . ",";
+						$type_ids .= $temp;
+                        $type_amount = $type->price();
+
+						$this->line("			Type Amount is: " . $type_amount);
+						
+						$description .= "\n".displayMoney($type_amount)." ".$type->type->title .  $stateName ;
+						
+                        $check_amount += $type_amount;
+	 
+                    } // end foreach types
+                    
+
+                    $transaction = new Transaction;
+                    $transaction->user_id = $check->user_id;
+					$transaction->parent_id = $check->company_id;
+                    $transaction->check_id = $check->id;
+                    $transaction->date = $check->completed_at;
+                    $transaction->amount = $check_amount;
+                    $transaction->description = $description;
+					$transaction->check_type = $type_ids;
+
+                    $saved = $transaction->save();
+                    $check->transaction_id = $transaction->id;
+                    $check->save();
+
+                    $this->info('');
+                    $this->info('');
+                } // end foreach checks
+
+                
+            } // end foreach user
+        });
+
+        $this->info('Billing complete');
+        $this->info('');
+        $this->info('');
+		
+		$stat->val = "Ready";
+		$stat->save();
+    }
+}

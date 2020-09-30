@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BackgroundReports>
+    <BackgroundReportPackage>
+        <ProviderReferenceId>
+            <IdValue>11111</IdValue>
+            <IdValue>22222</IdValue>
+            <IdValue>33333</IdValue>
+            <IdValue>44444</IdValue>
+        </ProviderReferenceId>
+    </BackgroundReportPackage>
+</BackgroundReports>

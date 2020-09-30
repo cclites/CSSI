@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BackgroundCheck>
+    <BackgroundSearchPackage>
+        <ScreeningsSummary>
+            <PersonalData>
+                <PersonName type="Subject">
+                    <GivenName></GivenName>
+                    <MiddleName></MiddleName>
+                    <FamilyName></FamilyName>
+                </PersonName>
+                <DemographicDetail>
+                    <GovernmentId countryCode="US" issuingAuthority="SSN"></GovernmentId>
+                    <DateOfBirth></DateOfBirth>
+                </DemographicDetail>
+            </PersonalData>
+                <PostalAddress>
+                    <DeliveryAddress></DeliveryAddress>
+                    <PostalCode></PostalCode>
+                    <Municipality></Municipality>
+                    <Region></Region>
+                </PostalAddress>
+        </ScreeningsSummary>
+        <Screenings>
+            <Screening qualifier="federalCriminal" type="criminal">
+                <CountryCode>US</CountryCode>
+                <ClientReferenceId>
+                    <IdValue></IdValue>
+                </ClientReferenceId>
+                <Comments></Comments>
+            </Screening>
+        </Screenings>
+    </BackgroundSearchPackage>
+</BackgroundCheck>
